@@ -36,7 +36,7 @@
                                 <li>
                                     <span>Address:
                                     </span>
-                                    <p>200 Tuas South Ave 2, Singapore 637205</p>
+                                    <p><?php echo ADDRESS; ?></p>
                                 </li>
                                 <li>
                                     <span>Booking & Contact:
