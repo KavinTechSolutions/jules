@@ -91,13 +91,7 @@
 				  </a>
 				</figure>
 			  </div>
-			   <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
-				<figure class="rx-gallery-card">
-				  <a class="rx-gallery-img" href="assets/images/gallery/image4.jpg" data-fancybox="gallery">
-					<img src="assets/images/gallery/image4.jpg" alt="gallery-2">
-				  </a>
-				</figure>
-			  </div>
+			  
 			   <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
 				<figure class="rx-gallery-card">
 				  <a class="rx-gallery-img" href="assets/images/gallery/image5.jpg" data-fancybox="gallery">
@@ -105,20 +99,73 @@
 				  </a>
 				</figure>
 			  </div>
-			   <!--<div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
+			  
+			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
 				<figure class="rx-gallery-card">
-				  <a class="rx-gallery-img" href="assets/images/gallery/image6.jpg" data-fancybox="gallery">
-					<img src="assets/images/gallery/image6.jpg" alt="gallery-2">
-				  </a>
-				</figure>
-			  </div>-->
-			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="restaurant">
-				<figure class="rx-gallery-card">
-				  <a class="rx-gallery-img" href="assets/images/gallery/image2.jpg" data-fancybox="gallery">
-					<img src="assets/images/gallery/image2.jpg" alt="gallery-2">
+				  <a class="rx-gallery-img" href="assets/images/gallery/image7.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/image7.jpg" alt="gallery-2">
 				  </a>
 				</figure>
 			  </div>
+			  
+			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="assets/images/gallery/image8.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/image8.jpg" alt="gallery-2">
+				  </a>
+				</figure>
+			  </div>
+			  
+			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="assets/images/gallery/image9.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/image9.jpg" alt="gallery-2">
+				  </a>
+				</figure>
+			  </div>
+			  
+			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="assets/images/gallery/image10.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/image10.jpg" alt="gallery-2">
+				  </a>
+				</figure>
+			  </div>
+			  
+			   <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="assets/images/gallery/image12.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/image12.jpg" alt="gallery-2">
+				  </a>
+				</figure>
+			  </div>
+			  
+			   <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="assets/images/gallery/image13.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/image13.jpg" alt="gallery-2">
+				  </a>
+				</figure>
+			  </div>
+			  
+			  <!-- Restaurant Section -->  
+			  
+			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="restaurant">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="assets/images/gallery/image4.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/image4.jpg" alt="gallery-2">
+				  </a>
+				</figure>
+			  </div>
+			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="restaurant">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="assets/images/gallery/image11.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/image11.jpg" alt="gallery-2">
+				  </a>
+				</figure>
+			  </div>
+			  
+			<!-- Videos Section -->  
 			<div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="video">
 			  <figure class="rx-gallery-card">
 				<a
@@ -129,6 +176,22 @@
 				>
 				  <video width="100%" muted autoplay loop playsinline>
 					<source src="assets/images/gallery/videos/video1.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				  </video>
+				</a>
+			  </figure>
+			</div>
+			
+			<div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="video">
+			  <figure class="rx-gallery-card">
+				<a
+				  class="rx-gallery-img"
+				  href="assets/images/gallery/videos/video2.mp4"
+				  data-fancybox="gallery"
+				  data-type="video"
+				>
+				  <video width="100%" muted autoplay loop playsinline>
+					<source src="assets/images/gallery/videos/video2.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				  </video>
 				</a>

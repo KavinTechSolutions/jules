@@ -16,13 +16,13 @@
     <link rel="apple-touch-icon-precomposed" href="assets/images/favicon.png">
     <script src="https://code.highcharts.com/highcharts.js"></script>
 	<style>
+	
 	  .review-card {
 		background: #fff;
 		border-radius: 12px;
 		box-shadow: 0 0 15px rgba(0,0,0,0.08);
 		padding: 20px;
 		height: 100%;
-		font-family: 'Segoe UI', sans-serif;
 	  }
 
 	  .review-header {
@@ -80,8 +80,9 @@
 		padding-left: 15px;
 		color: #333;
 		text-align: justify;
-		font-family: "DM Sans", serif;
 		font-size: 16px;
+		font-family: "DM Sans", serif;
+		line-height: 30px;
 	  }
 
 	  .quote::before {
@@ -92,7 +93,6 @@
 		color: #f05a28;
 		font-size: 20px;
 		text-align: justify;
-		font-family: "DM Sans", serif;
 		font-size: 16px;
   }
   
