@@ -56,7 +56,6 @@
             </div>
         </section>
 
-
 		<section class="s-menu p-list">
 		  <div class="container">
 			<div class="row">
@@ -66,7 +65,7 @@
 				<li class="all_items" data-filter=".dinein">DINE IN MENU</li>
 				<li class="all_items" data-filter=".brunch">BRUNCH</li>
                 <li class="all_items" data-filter=".starters">STARTERS</li>
-                <li class="all_items" data-filter=".main">MAIN COURSE</li>
+                <li class="all_items" data-filter=".maincourse">MAIN COURSE</li>
                 <li class="all_items" data-filter=".acompagnements">ACOMPAGNEMENTS</li>
                 <li class="all_items" data-filter=".sharing">SHARING PLATTER</li>
                 <li class="all_items" data-filter=".garni">GARNITURES</li>
@@ -74,10 +73,7 @@
                 <li class="all_items" data-filter=".bar">BAR SNACKS</li>
                 <li class="all_items" data-filter=".desserts">DESSERTS</li>
                 <li class="all_items" data-filter=".kids">KIDS MENU</li>
-                <li class="all_items" data-filter=".whitewine">WHITE WINE</li>
-
-
-                
+                <li class="all_items" data-filter=".whitewine">WHITE WINE</li>                
 			  </ul>
 
 			  <!-- Tab Content -->
@@ -198,7 +194,7 @@
                     </div>
                 <!--End STARTERS-->
                 <!--Main-->
-                <div class="tab-pane main" id="main">
+                <div class="tab-pane maincourse" id="maincourse">
                     <div class="menu-content">
                         <div class="block-text center">
                         <h3 class="title" data-aos-duration="1000" data-aos="fade-up">MAIN COURSE</h3>
@@ -582,7 +578,7 @@
                                     <div class="price-row">
                                     <span class="price-des">$14</span>
                                     <span class="price-des">$45</span>
-                                    <span class="price-des"></span>
+                                    <span class="price-des">$0.00</span>
                                     </div>
                                 </div>
                                 <!-- Menu Item 3 -->
@@ -611,6 +607,7 @@
                         <div class="container mobile-view">
                             <div class="row">
                             <div class="col-12">
+                            <h1 class="menu-title text-center">WHITE WINE</h1>
                                 <div class="menu-item">
                                 <p class="item-name">Cloudy Bay 2022 - Sauvignon</p>
                                 <div class="price-row">
@@ -657,9 +654,6 @@
 
         
         <?php include("include/footer.php");?>
-
-
-
     </div>
     <a id="scroll-top"></a>
     <script src="app/js/jquery.min.js"></script>
@@ -675,25 +669,44 @@
     <script src="app/js/count-down.js"></script>
     <script src="app/js/countto.js"></script>
 	<script>
-	  $(document).ready(function() {
-		// Show all by default
-		$(".tab-pane").show();
+  $(document).ready(function () {
+    // Show all by default
+    $(".tab-pane").show();
 
-		$(".all_items").on("click", function() {
-		  var filterValue = $(this).data("filter");
+    $(".all_items").on("click", function () {
+      var filterValue = $(this).data("filter");
 
-		  $(".all_items").removeClass("active");
-		  $(this).addClass("active");
+      // Remove active class from all tabs and add it to the clicked tab
+      $(".all_items").removeClass("active");
+      $(this).addClass("active");
 
-		  if (filterValue === "*") {
-			$(".tab-pane").fadeIn();
-		  } else {
-			$(".tab-pane").hide();
-			$(filterValue).fadeIn();
-		  }
-		});
-	  });
-	</script>
+      if (filterValue === "*") {
+        // Show all tab panes if the filter is "*"
+        $(".tab-pane").fadeIn();
+      } else {
+        // Hide all tab panes and show only the selected one
+        $(".tab-pane").hide();
+        $(filterValue).fadeIn();
+
+        // Check if the screen width is less than or equal to a mobile breakpoint (e.g., 768px)
+        if ($(window).width() <= 768) {
+          // Scroll to the selected tab content with smooth animation
+          $("html, body").animate(
+            {
+              scrollTop: $(filterValue).offset().top - 100, // Stop 100px above the tab content
+            },
+            500 // Duration of the scroll animation in milliseconds
+          );
+        }
+      }
+    });
+
+    // Optional: Re-check window size on resize to handle dynamic changes
+    $(window).resize(function () {
+      // You can add logic here if needed, e.g., resetting states or reapplying styles
+    });
+  });
+</script>
 
 </body>
 
