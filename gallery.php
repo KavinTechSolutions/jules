@@ -72,22 +72,22 @@
 			<div class="row mb-minus-24 mt-4">
 			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
 				<figure class="rx-gallery-card">
-				  <a class="rx-gallery-img" href="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" data-fancybox="gallery">
-					<img src="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" alt="gallery-1">
+				  <a class="rx-gallery-img" href="assets/images/gallery/img_1.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/img_1.jpg" alt="gallery-1">
 				  </a>
 				</figure>
 			  </div>
 			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="restaurant">
 				<figure class="rx-gallery-card">
-				  <a class="rx-gallery-img" href="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" data-fancybox="gallery">
-					<img src="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" alt="gallery-2">
+				  <a class="rx-gallery-img" href="assets/images/gallery/img_1.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/img_1.jpg" alt="gallery-2">
 				  </a>
 				</figure>
 			  </div>
 			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="video">
 				<figure class="rx-gallery-card">
-				  <a class="rx-gallery-img" href="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" data-fancybox="gallery">
-					<img src="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" alt="gallery-3">
+				  <a class="rx-gallery-img" href="assets/images/gallery/img_1.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/img_1.jpg" alt="gallery-3">
 				  </a>
 				</figure>
 			  </div>
