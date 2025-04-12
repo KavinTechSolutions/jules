@@ -47,7 +47,7 @@
 				<a href="about.php">About Us</a>
 			</li>
 			<li class="menu-item menu-item-has-children <?= $current_page == 'menu_list.php' ? 'current-menu-item' : '' ?>">
-				<a href="menu_list.php">Menu</a>
+				<a href="menu_list-1.php">Menu</a>
 			</li>
 			<li class="menu-item menu-item-has-children <?= $current_page == 'gallery.php' ? 'current-menu-item' : '' ?>">
 				<a href="gallery.php">Gallery</a>

@@ -76,7 +76,7 @@
                     <div class="bottom-main">
                         <p>Copyright © <?php echo date('Y')?> JULES. All Rights Reserved.</p>
                         <ul>
-                            <li><a href="menu_list.php">MENU</a></li>
+                            <li><a href="menu_list-1.php">MENU</a></li>
                             <li><a href="gallery.php">GALLERY</a></li>
                             <li><a href="contact.php">CONTACT</a></li>
                         </ul>
