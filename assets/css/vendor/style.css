@@ -1,0 +1,176 @@
+/* gallery */
+figure {
+  margin-bottom: 0;
+}
+
+.rx-gallery-card {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+.rx-gallery-card:hover .rx-gallery-img:before, .rx-gallery-card:hover .rx-gallery-img:after {
+  opacity: 1;
+}
+.rx-gallery-card .rx-gallery-img img {
+  width: 100%;
+  border-radius: 200px;
+}
+.rx-gallery-card .rx-gallery-img:before {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  content: "\f0d1";
+  font-family: "remixicon";
+  font-size: 42px;
+  font-weight: 500;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+}
+.rx-gallery-card .rx-gallery-img:after {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  border-radius: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/* gallery */
+.rx-gallery-card-two {
+  position: relative;
+  overflow: hidden;
+}
+.rx-gallery-card-two:hover .rx-gallery-img:before, .rx-gallery-card-two:hover .rx-gallery-img:after {
+  opacity: 1;
+}
+.rx-gallery-card-two .rx-gallery-img img {
+  width: 100%;
+  border-radius: 30px;
+}
+.rx-gallery-card-two .rx-gallery-img:before {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  content: "\f0d1";
+  font-family: "remixicon";
+  font-size: 42px;
+  font-weight: 500;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+}
+.rx-gallery-card-two .rx-gallery-img:after {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/*Gallery */
+
+.menu-tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 0;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    
+    .menu-tab li {
+        padding: 10px 15px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: capitalize;
+        border: 2px solid #ccc;
+        background: white;
+        transition: all 0.3s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-width: 120px;  /* Ensures a proper button size */
+        max-width: 160px;  /* Prevents extra-wide buttons */
+        word-break: break-word;  /* Ensures long words break correctly */
+        white-space: normal;  /* Allows text to wrap */
+    }
+    
+    .menu-tab li.active {
+        border-color: #0294d7 !important;
+        background: #0294d7 !important;
+        color: white;
+    }
+    
+    .menu-tab li:hover {
+        border-color: #0294d7 !important;
+        background: #0294d7 !important;
+        color: white;
+    }
+    
+    @media (max-width: 768px) {
+        .menu-tab {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+        }
+        
+        .menu-tab li {
+            font-size: 14px;
+            padding: 10px;
+            min-width: 100px;
+            max-width: 140px;
+            word-break: break-word;
+            white-space: normal;
+            text-align: center;
+        }
+    }

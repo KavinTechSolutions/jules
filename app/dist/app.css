@@ -4312,16 +4312,18 @@ form.s1 button:hover {
 .page-faqs .s-faq {
   padding: 132px 0 3px;
 }
+
 .page-faqs .s-faq .container {
   max-width: 1200px;
 }
+
 .page-faqs .s-faq .flat-accordion {
   margin-top: 41px;
   margin-right: 0;
 }
 
 .page-gallery .s-gallery {
-  padding: 133px 0 105px;
+  padding: 40px 0 105px;
 }
 .page-gallery .s-gallery .container {
   max-width: 1230px;

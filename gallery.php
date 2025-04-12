@@ -15,6 +15,12 @@
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/favicon.png">
     <script src="https://code.highcharts.com/highcharts.js"></script>
+	<!--Custom CSS -->
+    <link rel="stylesheet" href="assets/css/menu.css" />
+	 <!-- Gallery -->
+    <link rel="stylesheet" href="assets/css/vendor/remixicon.css">
+    <link rel="stylesheet" href="assets/css/vendor/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/style.css">
 </head>
 
 <body class="main header-fixed page-gallery ">
@@ -53,55 +59,43 @@
             </div>
         </section>
 
-        <section class="s-gallery">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
+        <section class="s-gallery section-gallery padding-tb-100">
+		  <div class="container">
+			<!-- Tab Navigation -->
+			<ul class="allmenu-filtering">
+			  <li class="all_items active" data-filter="*">All Categories</li>
+			  <li class="all_items" data-filter="food">Food</li>
+			  <li class="all_items" data-filter="restaurant">Restaurant</li>
+			  <li class="all_items" data-filter="video">Video</li>
+			</ul>
 
+			<div class="row mb-minus-24 mt-4">
+			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" data-fancybox="gallery">
+					<img src="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" alt="gallery-1">
+				  </a>
+				</figure>
+			  </div>
+			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="restaurant">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" data-fancybox="gallery">
+					<img src="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" alt="gallery-2">
+				  </a>
+				</figure>
+			  </div>
+			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="video">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" data-fancybox="gallery">
+					<img src="https://marinaseafoodhouse.sg/demo/assets/img/gallery/1.jpg" alt="gallery-3">
+				  </a>
+				</figure>
+			  </div>
+			  <!-- Add more gallery items as needed -->
+			</div>
+		  </div>
+		</section>
 
-                        <div class="gallery-main">
-                            <div class="gallery-box">
-                                <img src="assets/images/section/gallery-5.jpg" alt="">
-                                <div class="content">
-                                    <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-box">
-                                <img src="assets/images/section/gallery-9.jpg" alt="">
-                                <div class="content">
-                                    <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-box">
-                                <img src="assets/images/section/gallery-10.jpg" alt="">
-                                <div class="content">
-                                    <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-box">
-                                <img src="assets/images/section/gallery-11.jpg" alt="">
-                                <div class="content">
-                                    <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
-                                </div>
-                            </div>
-
-                            <div class="gallery-box">
-                                <img src="assets/images/section/gallery-12.jpg" alt="">
-                                <div class="content">
-                                    <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-box">
-                                <img src="assets/images/section/gallery-13.jpg" alt="">
-                                <div class="content">
-                                    <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
 
@@ -123,6 +117,31 @@
 
     <script src="app/js/count-down.js"></script>
     <script src="app/js/countto.js"></script>
+	<!--Gallery Section--> 
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/vendor/jquery.fancybox.min.js"></script>
+    <script>
+	$(document).ready(function () {
+	  // Initially show all items
+	  $(".gallery-item").show();
+
+	  $(".allmenu-filtering li").click(function () {
+		var filter = $(this).data("filter");
+
+		// Set active class
+		$(".allmenu-filtering li").removeClass("active");
+		$(this).addClass("active");
+
+		if (filter === "*") {
+		  $(".gallery-item").fadeIn();
+		} else {
+		  $(".gallery-item").hide();
+		  $('.gallery-item[data-category="' + filter + '"]').fadeIn();
+		}
+	  });
+	});
+	</script>
+
 
 </body>
 
