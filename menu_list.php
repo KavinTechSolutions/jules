@@ -87,11 +87,12 @@
                 <li class="all_items" data-filter=".champagne">CHAMPAGNE</li>
                 <li class="all_items" data-filter=".lorievalley">LOIRE VALLEY WHITE</li> 
                 <li class="all_items" data-filter=".chabli">CHABLIS</li>
+
                 <li class="all_items" data-filter=".burgundy">BURGUNGY WHITE (CHARDONNAY)</li> 
                 <li class="all_items" data-filter=".rhone">RHONE VALLEY WHITE</li> 
                 <li class="all_items" data-filter=".lang">LANGUEDOC WHITE</li> 
                 <li class="all_items text-capitalize" data-filter=".bank">Bordeaux Right Bank (Merlot, Cabernet Franc)</li> 
-                <li class="all_items text-capitalize" data-filter=".bankleft">Bordeaux Left Bank (Cabernet Sauvignon, Merlot)</li> 
+                <li class="all_items text-capitalize" data-filter=".bank-left">Bordeaux Left Bank (Cabernet Sauvignon, Merlot)</li> 
                 <li class="all_items text-capitalize" data-filter=".burred">Burgundy Red</li> 
                 <li class="all_items text-capitalize" data-filter=".gamy">Beaujolais (Gamay)</li> 
                 <li class="all_items text-capitalize" data-filter=".rhone2">Rhone Valley (Grenache, Syrah, Mourvedre)</li> 
@@ -102,11 +103,6 @@
                 <li class="all_items text-capitalize" data-filter=".sprits">Apéritifs,Digestifs,Liqueurs & Spirits</li>
                 <li class="all_items text-capitalize" data-filter=".beer">Draught Beer</li> 
  
-
-                            
-                
-
-                
 			  </ul>
 
 			  <!-- Tab Content -->
@@ -177,7 +173,556 @@
                     </div>
                 </div><!-- tab-content -->
                 <!---End brunch--->
+                        <!--Bordeux-->
+                        <div class="tab-pane bank-left" id="bank-left">
+                                <div class="menu-container">
+                                    <!-- Desktop View -->
+                                    <div class="container desktop-view">
+                                        <div class="row">
+                                            <!-- Combined Column: Menu Items and Prices -->
+                                            <div class="col-6">
+                                                <div class="menu-items">
+                                                    <!-- Price Headings -->
+                                                    <div class="price-heading">
+                                                        <div class="item-column">
+                                                            <span class="heading-column">Item</span>
+                                                        </div>
+                                                        <div class="price-columns">
+                                                            <span class="heading-column">Bottle</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Subheading for Bordeaux Left Bank -->
+                                                    <h4 class="subheading">Bordeaux Left Bank (Cabernet Sauvignon, Merlot)</h4>
+                                                    <!-- Menu Item 1 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Château Potensac, Medoc 2017</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$140</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 2 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Château Tronquoy Lalande, Saint-Estèphe 2017</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$140</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 3 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">La Dame De Montrose, Saint-Estèphe 2017</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$200</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 4 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Château Cos d’Estournel, Saint Estèphe Les Pagodes De Cos</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$250</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 5 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Chateau Lynch Moussas, Pauillac 5th GCC 2017</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$250</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 6 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Château D’Armailhac, Pauillac 5th GCC 2012</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$300</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 7 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Château Haut Bages Liberal, Pauillac 5th GCC 2010</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$350</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 border-separator">
+                                                <div class="menu-items">
+                                                    <!-- Price Headings -->
+                                                    <div class="price-heading">
+                                                        <div class="item-column">
+                                                            <span class="heading-column">Item</span>
+                                                        </div>
+                                                        <div class="price-columns">
+                                                            <span class="heading-column">Bottle</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 8 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">La Reserve De Leoville Barton, Saint Julien 2018</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$170</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 9 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Château Langoa Barton, Saint Julien 3rd GCC 2013</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$215</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 10 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Château Branaire Ducru, Saint Julien 4th GCC 2014</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$275</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 11 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Les Charmes De Kirwan, Margaux 2019</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$170</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 12 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Les Charmes De Kirwan, Margaux 2016 - Magnum</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$300</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 13 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Château La Tour De Mons, Margaux Cru Bourgeois Superieur 2019</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$175</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 14 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Chateau Citran, Haut Medoc 2020</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$105</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 15 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Château Cambon La Pelouse, Cru Bourgeois Exceptionnel 2017</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$110</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Menu Item 16 -->
+                                                    <div class="menu-item">
+                                                        <p class="item-name">Château Haut Lagrange, Pessac Léognan Red 2018</p>
+                                                        <div class="price-row">
+                                                            <span class="price-des">$125</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
+                                    <!-- Mobile View -->
+                                    <div class="container mobile-view">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <!-- Subheading for Bordeaux Left Bank -->
+                                                <h4 class="subheading">Bordeaux Left Bank (Cabernet Sauvignon, Merlot)</h4>
+                                                <!-- Menu Item 1 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Château Potensac, Medoc 2017</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $140</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 2 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Château Tronquoy Lalande, Saint-Estèphe 2017</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $140</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 3 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">La Dame De Montrose, Saint-Estèphe 2017</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $200</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 4 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Château Cos d’Estournel, Saint Estèphe Les Pagodes De Cos</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $250</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 5 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Chateau Lynch Moussas, Pauillac 5th GCC 2017</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $250</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 6 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Château D’Armailhac, Pauillac 5th GCC 2012</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $300</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 7 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Château Haut Bages Liberal, Pauillac 5th GCC 2010</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $350</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 8 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">La Reserve De Leoville Barton, Saint Julien 2018</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $170</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 9 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Château Langoa Barton, Saint Julien 3rd GCC 2013</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $215</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 10 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Château Branaire Ducru, Saint Julien 4th GCC 2014</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $275</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 11 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Les Charmes De Kirwan, Margaux 2019</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $170</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 12 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Les Charmes De Kirwan, Margaux 2016 - Magnum</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $300</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 13 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Château La Tour De Mons, Margaux Cru Bourgeois Superieur 2019</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $175</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 14 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Chateau Citran, Haut Medoc 2020</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $105</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 15 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Château Cambon La Pelouse, Cru Bourgeois Exceptionnel 2017</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $110</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Menu Item 16 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">Château Haut Lagrange, Pessac Léognan Red 2018</p>
+                                                    <div class="price-row">
+                                                        <span class="price-drink">Bottle: $125</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                <!--Bordeux--end-->
+                  <!--Burgundy red-->
+                  <div class="tab-pane burred" id="burred">
+                    <div class="menu-content">
+                        <div class="block-text center">
+                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">BURGUNDY RED</h3>
+                        </div>
+                        <div class="menu-main">
+                            <ul class="menu-list">
+                                <!-- Menu Item 1 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                    <h5 class="name"><span class="txt">Dubois Et, Fils, Bourgogne Cote D'Or Vv Red 2021 - Magnum</span><span class="price">$200</span></h5>
+                                    <p>Burgundy Red</p>
+                                </li>
+                                <!-- Menu Item 2 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                    <h5 class="name"><span class="txt">Dubois Et, Fils, Vosne Romanee Les Chalandins 2020</span><span class="price">$300</span></h5>
+                                    <p>Burgundy Red</p>
+                                </li>
+                                <!-- Menu Item 3 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                    <h5 class="name"><span class="txt">Chevillon Chezeaux, Nuits Saint Georges Vielles Vignes 2021</span><span class="price">$175</span></h5>
+                                    <p>Burgundy Red</p>
+                                </li>
+                            </ul>
+
+                            <ul class="menu-list pl-30">
+                                <!-- Menu Item 4 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                                    <h5 class="name"><span class="txt">Domaine Delagrange, Volnay Vieilles Vignes 2021</span><span class="price">$175</span></h5>
+                                    <p>Burgundy Red</p>
+                                </li>
+                                <!-- Menu Item 5 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                    <h5 class="name"><span class="txt">Guy Amiot, Chassagne Montrachet Vv Red - Magnum 2018</span><span class="price">$350</span></h5>
+                                    <p>Burgundy Red</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Bugundy red end-->
+                <!--wine cock-->
+                <div class="tab-pane winecock" id="winecock">
+                <div class="menu-content">
+                    <div class="block-text center">
+                        <h3 class="title" data-aos-duration="1000" data-aos="fade-up">WINE COCKTAILS</h3>
+                    </div>
+                    <div class="menu-main">
+                        <ul class="menu-list">
+                            <!-- Menu Item 1 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                <h5 class="name"><span class="txt">Red Wine Sangria</span><span class="price">$18.00</span></h5>
+                                <p>Red wine-based cocktail with seasonal fruits</p>
+                            </li>
+                            <!-- Menu Item 2 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <h5 class="name"><span class="txt">White Wine Sangria</span><span class="price">$18.00</span></h5>
+                                <p>White wine-based cocktail with seasonal fruits</p>
+                            </li>
+                            <!-- Menu Item 3 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                <h5 class="name"><span class="txt">French 75</span><span class="price">$16.00</span></h5>
+                                <p>Sparkling wine, gin, sugar, lemon juice</p>
+                            </li>
+                            <!-- Menu Item 4 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                                <h5 class="name"><span class="txt">French Valet</span><span class="price">$16.00</span></h5>
+                                <p>Red wine, coke</p>
+                            </li>
+                            <!-- Menu Item 5 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                <h5 class="name"><span class="txt">Kir Royale</span><span class="price">$16.00</span></h5>
+                                <p>Champagne, crème de cassis</p>
+                            </li>
+                        </ul>
+
+                        <ul class="menu-list pl-30">
+                            <!-- Menu Item 6 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                                <h5 class="name"><span class="txt">1789</span><span class="price">$20.00</span></h5>
+                                <p>White wine, whisky, Lillet Blanc</p>
+                            </li>
+                            <!-- Menu Item 7 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                                <h5 class="name"><span class="txt">French Kiss</span><span class="price">$20.00</span></h5>
+                                <p>Sparkling wine, Campari, sugars</p>
+                            </li>
+                            <!-- Menu Item 8 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                                <h5 class="name"><span class="txt">Sparkling French</span><span class="price">$20.00</span></h5>
+                                <p>Sparkling wine, orange juice</p>
+                            </li>
+                            <!-- Menu Item 9 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+                                <h5 class="name"><span class="txt">Jannah</span><span class="price">$22.00</span></h5>
+                                <p>Bourbon, red wine, lemon</p>
+                            </li>
+                            <!-- Menu Item 10 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                                <h5 class="name"><span class="txt">White Flag</span><span class="price">$22.00</span></h5>
+                                <p>White wine, tonic</p>
+                            </li>
+                            <!-- Menu Item 11 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
+                                <h5 class="name"><span class="txt">White Wine Mojito</span><span class="price">$22.00</span></h5>
+                                <p>White wine, lemon</p>
+                            </li>
+                            <!-- Menu Item 12 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
+                                <h5 class="name"><span class="txt">Blue Lagoon</span><span class="price">$22.00</span></h5>
+                                <p>White wine, ginger ale, blue curaçao</p>
+                            </li>
+                            <!-- Menu Item 13 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">
+                                <h5 class="name"><span class="txt">Mimosa</span><span class="price">$22.00</span></h5>
+                                <p>Champagne, orange juice</p>
+                            </li>
+                            <!-- Menu Item 14 -->
+                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400">
+                                <h5 class="name"><span class="txt">La Seine Rouge (Jules Special)</span><span class="price">$22.00</span></h5>
+                                <p>Signature red wine cocktail</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <!--wine cock-->
+                <!--cocktitles-->
+                <div class="tab-pane cock" id="cock">
+                    <div class="menu-content">
+                        <div class="block-text center">
+                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">COCKTAILS</h3>
+                        </div>
+                        <div class="menu-main">
+                            <ul class="menu-list">
+                                <!-- Menu Item 1 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                    <h5 class="name"><span class="txt">Boulevardier</span><span class="price">$20</span></h5>
+                                    <p>Bourbon, Campari, Vermouth</p>
+                                </li>
+                                <!-- Menu Item 2 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                    <h5 class="name"><span class="txt">The Frenchie (French Martini)</span><span class="price">$16</span></h5>
+                                    <p>Vodka, Chamrod, Pineapple Juice</p>
+                                </li>
+                                <!-- Menu Item 3 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                    <h5 class="name"><span class="txt">French Mule</span><span class="price">$16</span></h5>
+                                    <p>Remy, Lime Juice, Ginger Ale</p>
+                                </li>
+                                <!-- Menu Item 4 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                                    <h5 class="name"><span class="txt">HK416 F</span><span class="price">$22</span></h5>
+                                    <p>Gin, Vodka, Rum, Brandy, Whisky, Bourbon</p>
+                                </li>
+                                <!-- Menu Item 5 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                    <h5 class="name"><span class="txt">French Gimlet</span><span class="price">$24</span></h5>
+                                    <p>Gin, Sugar, Lime</p>
+                                </li>
+                            </ul>
+
+                            <ul class="menu-list pl-30">
+                                <!-- Menu Item 6 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                                    <h5 class="name"><span class="txt">Tetards Blancs</span><span class="price">$24</span></h5>
+                                    <p>Gin, Vodka, Rum, Tequila, Triple Sec, Bailey</p>
+                                </li>
+                                <!-- Menu Item 7 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                                    <h5 class="name"><span class="txt">Screwdriver</span><span class="price">$16</span></h5>
+                                    <p>Vodka, Orange Juice</p>
+                                </li>
+                                <!-- Menu Item 8 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                                    <h5 class="name"><span class="txt">Hangover</span><span class="price">$18</span></h5>
+                                    <p>Rum, Gin, Orange Liqueur, Lemon</p>
+                                </li>
+                                <!-- Menu Item 9 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+                                    <h5 class="name"><span class="txt">Singapore Sling</span><span class="price">$20</span></h5>
+                                    <p>Gin, Pineapple juice, Lime juice, Curaçao, Bénédictine, Grenadine & Cherry liqueur</p>
+                                </li>
+                                <!-- Menu Item 10 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                                    <h5 class="name"><span class="txt">Long Island Tea</span><span class="price">$20</span></h5>
+                                    <p>Vodka, Gin, Tequila, Light Rum, Triple Sec, Cola & Fresh Lemon Juice</p>
+                                </li>
+                                <!-- Menu Item 11 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
+                                    <h5 class="name"><span class="txt">Mojito</span><span class="price">$22</span></h5>
+                                    <p>Rum, Lime Juice & Ice</p>
+                                </li>
+                                <!-- Menu Item 12 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
+                                    <h5 class="name"><span class="txt">Daiquiri</span><span class="price">$16</span></h5>
+                                    <p>White Rum, Lime Juice & Sugar</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Cocktitle end-->
+                <!--Mocktails-->
+                <div class="tab-pane mocktails" id="mocktails">
+                    <div class="menu-content">
+                        <div class="block-text center">
+                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">MOCKTAILS</h3>
+                        </div>
+                        <div class="menu-main">
+                            <ul class="menu-list">
+                                <!-- Menu Item 1 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                    <h5 class="name"><span class="txt">Alorange</span><span class="price">$16</span></h5>
+                                    <p>Orange Juice, Lime, Soda</p>
+                                </li>
+                                <!-- Menu Item 2 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                    <h5 class="name"><span class="txt">French Princess</span><span class="price">$16</span></h5>
+                                    <p>Orange Juice, Pineapple Juice, Lemon, Ginger Ale</p>
+                                </li>
+                                <!-- Menu Item 3 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                    <h5 class="name"><span class="txt">Appletini</span><span class="price">$16</span></h5>
+                                    <p>Apple Juice, Lemon</p>
+                                </li>
+                                <!-- Menu Item 4 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                                    <h5 class="name"><span class="txt">Virgin Mojito</span><span class="price">$16</span></h5>
+                                    <p>Lime Juice, Mint</p>
+                                </li>
+                                <!-- Menu Item 5 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                    <h5 class="name"><span class="txt">Sunset</span><span class="price">$16</span></h5>
+                                    <p>Iced Tea, Lemonade</p>
+                                </li>
+                            </ul>
+
+                            <ul class="menu-list pl-30">
+                                <!-- Menu Item 6 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                                    <h5 class="name"><span class="txt">Citrus Sling</span><span class="price">$16</span></h5>
+                                    <p>Orange, Lemon, Lime, Sparkling Water</p>
+                                </li>
+                                <!-- Menu Item 7 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                                    <h5 class="name"><span class="txt">Sunrise</span><span class="price">$16</span></h5>
+                                    <p>Orange, Grenadine</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Mocktails end-->
+                <!--south -->
+                <div class="tab-pane south" id="south">
+                    <div class="menu-content">
+                        <div class="block-text center">
+                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">SOUTH WEST FRANCE</h3>
+                        </div>
+                        <div class="menu-main">
+                            <ul class="menu-list">
+                                <!-- Menu Item 1 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                    <h5 class="name"><span class="txt">Combel La Serre, Cahors Lax Aux Cochons 2014</span><span class="price">$175</span></h5>
+                                    <p>Malbec</p>
+                                </li>
+                            </ul>
+
+                            <ul class="menu-list pl-30">
+                                <!-- Empty list for alignment purposes -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--South end-->
                 <!---STARTERS-->
                 <div class="tab-pane starters" id="starters">
                     <div class="menu-content">
@@ -316,6 +861,39 @@
                     </div>
                     </div>
                 <!--End Acompagnements-->
+                <!--Lorie-->
+                <div class="tab-pane lorievalley" id="lorievalley">
+                    <div class="menu-content">
+                        <div class="block-text center">
+                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">LOIRE VALLEY WHITE</h3>
+                        </div>
+                        <div class="menu-main">
+                            <ul class="menu-list">
+                                <!-- Menu Item 1 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                    <h5 class="name">
+                                        <span class="txt">Lucien Crochet, Sancerre 2022</span>
+                                        <span class="price">$95</span>
+                                    </h5>
+                                    <p>Sauvignon Blanc</p>
+                                </li>
+                                </ul>
+                            
+                                <ul class="menu-list pl-30">
+                                <!-- Menu Item 2 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <h5 class="name">
+                                    <span class="txt">Château De Tracy, Pouilly Fumé Mademoiselle De T. 2022</span>
+                                    <span class="price">$105</span>
+                                </h5>
+                                <p>Sauvignon Blanc</p>
+                            </li>
+						
+					      
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <!--sharing-->
                 <div class="tab-pane sharing" id="sharing">
                         <div class="menu-content">
@@ -347,7 +925,27 @@
                         </div>
                         </div>
                 <!--End sharing-->
-
+            <!---Chablis-->
+            <div class="tab-pane chabli" id="chabli">
+                                <div class="menu-content">
+                                    <div class="block-text center">
+                                        <h3 class="title" data-aos-duration="1000" data-aos="fade-up">CHABLIS</h3>
+                                    </div>
+                                    <div class="menu-main">
+                                        <ul class="menu-list">
+                                            <!-- Menu Item 1 -->
+                                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                                <h5 class="name">
+                                                    <span class="txt">Louis Pere Et Files, Chablis 2021</span>
+                                                    <span class="price">$105</span>
+                                                </h5>
+                                                <p>Chablis</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                <!--Chablis end-->
                 <!--GARNITURES-->
                 <div class="tab-pane garni" id="garni">
                 <div class="menu-content">
@@ -700,6 +1298,47 @@
                 </div>
 
                 <!--White wine End-->
+                <!--right-->
+                <div class="tab-pane bank" id="bank">
+                    <div class="menu-content">
+                        <div class="block-text center">
+                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">BORDEAUX RIGHT BANK</h3>
+                        </div>
+                        <div class="menu-main">
+                            <ul class="menu-list">
+                                <!-- Menu Item 1 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                    <h5 class="name"><span class="txt">Château La Penellerie, Blaye Côtes De Bordeaux Prestige Red 2020</span><span class="price">$125.00</span></h5>
+                                    <p>Merlot, Cabernet Franc</p>
+                                </li>
+                                <!-- Menu Item 2 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                    <h5 class="name"><span class="txt">Chateau Simard, Saint Emilion Grand Cru 2014</span><span class="price">$125.00</span></h5>
+                                    <p>Merlot, Cabernet Franc</p>
+                                </li>
+                                <!-- Menu Item 3 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                    <h5 class="name"><span class="txt">Clos La Gaffeliere, Saint-Emilion Grand Cru 2019</span><span class="price">$148.00</span></h5>
+                                    <p>Merlot, Cabernet Franc</p>
+                                </li>
+                            </ul>
+
+                            <ul class="menu-list pl-30">
+                                <!-- Menu Item 4 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                                    <h5 class="name"><span class="txt">Château La Fleur De Boüard, Lalande De Pomerol Red 2020</span><span class="price">$140.00</span></h5>
+                                    <p>Merlot, Cabernet Franc</p>
+                                </li>
+                                <!-- Menu Item 5 -->
+                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                    <h5 class="name"><span class="txt">Château Feytit Clinet, Pomerol 2013</span><span class="price">$220.00</span></h5>
+                                    <p>Merlot, Cabernet Franc</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--right-->
                 <!--Roes Wine-->
                 <div class="tab-pane rosewine" id="rosewine">
                     <div class="menu-container">
@@ -1028,61 +1667,9 @@
                     </div>
                 </div>
                 <!--Champagne end-->
-                <!--Lorie-->
-                <div class="tab-pane lorievalley" id="lorievalley">
-                    <div class="menu-content">
-                        <div class="block-text center">
-                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">LOIRE VALLEY WHITE</h3>
-                        </div>
-                        <div class="menu-main">
-                            <ul class="menu-list">
-                                <!-- Menu Item 1 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                                    <h5 class="name">
-                                        <span class="txt">Lucien Crochet, Sancerre 2022</span>
-                                        <span class="price">$95</span>
-                                    </h5>
-                                    <p>Sauvignon Blanc</p>
-                                </li>
-                                </ul>
-                            
-                                <ul class="menu-list pl-30">
-                                <!-- Menu Item 2 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                                <h5 class="name">
-                                    <span class="txt">Château De Tracy, Pouilly Fumé Mademoiselle De T. 2022</span>
-                                    <span class="price">$105</span>
-                                </h5>
-                                <p>Sauvignon Blanc</p>
-                            </li>
-						
-					      
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                
                 <!--Lorie End-->
-                <!---Chablis-->
-                <div class="tab-pane chablis" id="chablis">
-                    <div class="menu-content">
-                        <div class="block-text center">
-                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">CHABLIS</h3>
-                        </div>
-                        <div class="menu-main">
-                            <ul class="menu-list">
-                                <!-- Menu Item 1 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                                    <h5 class="name">
-                                        <span class="txt">Louis Pere Et Files, Chablis 2021</span>
-                                        <span class="price">$105</span>
-                                    </h5>
-                                    <p>Chablis</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--Chablis end-->
+                
                 <!--Burgundy White (Chardonnay)-->
                 <div class="tab-pane burgundy" id="burgundy">
                         <div class="menu-container">
@@ -1322,362 +1909,9 @@
                     </div>
                 </div>
                 <!--lang end-->
-                <!--right-->
-                <div class="tab-pane bank" id="bank">
-                    <div class="menu-content">
-                        <div class="block-text center">
-                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">BORDEAUX RIGHT BANK</h3>
-                        </div>
-                        <div class="menu-main">
-                            <ul class="menu-list">
-                                <!-- Menu Item 1 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                                    <h5 class="name"><span class="txt">Château La Penellerie, Blaye Côtes De Bordeaux Prestige Red 2020</span><span class="price">$125.00</span></h5>
-                                    <p>Merlot, Cabernet Franc</p>
-                                </li>
-                                <!-- Menu Item 2 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                                    <h5 class="name"><span class="txt">Chateau Simard, Saint Emilion Grand Cru 2014</span><span class="price">$125.00</span></h5>
-                                    <p>Merlot, Cabernet Franc</p>
-                                </li>
-                                <!-- Menu Item 3 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                    <h5 class="name"><span class="txt">Clos La Gaffeliere, Saint-Emilion Grand Cru 2019</span><span class="price">$148.00</span></h5>
-                                    <p>Merlot, Cabernet Franc</p>
-                                </li>
-                            </ul>
-
-                            <ul class="menu-list pl-30">
-                                <!-- Menu Item 4 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                                    <h5 class="name"><span class="txt">Château La Fleur De Boüard, Lalande De Pomerol Red 2020</span><span class="price">$140.00</span></h5>
-                                    <p>Merlot, Cabernet Franc</p>
-                                </li>
-                                <!-- Menu Item 5 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                                    <h5 class="name"><span class="txt">Château Feytit Clinet, Pomerol 2013</span><span class="price">$220.00</span></h5>
-                                    <p>Merlot, Cabernet Franc</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--right-->
-                <!--Bordeux-->
-                <div class="tab-pane bank-left" id="bank-left">
-                                <div class="menu-container">
-                                    <!-- Desktop View -->
-                                    <div class="container desktop-view">
-                                        <div class="row">
-                                            <!-- Combined Column: Menu Items and Prices -->
-                                            <div class="col-6">
-                                                <div class="menu-items">
-                                                    <!-- Price Headings -->
-                                                    <div class="price-heading">
-                                                        <div class="item-column">
-                                                            <span class="heading-column">Item</span>
-                                                        </div>
-                                                        <div class="price-columns">
-                                                            <span class="heading-column">Bottle</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Subheading for Bordeaux Left Bank -->
-                                                    <h4 class="subheading">Bordeaux Left Bank (Cabernet Sauvignon, Merlot)</h4>
-                                                    <!-- Menu Item 1 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Château Potensac, Medoc 2017</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$140</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 2 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Château Tronquoy Lalande, Saint-Estèphe 2017</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$140</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 3 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">La Dame De Montrose, Saint-Estèphe 2017</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$200</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 4 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Château Cos d’Estournel, Saint Estèphe Les Pagodes De Cos</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$250</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 5 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Chateau Lynch Moussas, Pauillac 5th GCC 2017</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$250</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 6 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Château D’Armailhac, Pauillac 5th GCC 2012</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$300</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 7 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Château Haut Bages Liberal, Pauillac 5th GCC 2010</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$350</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-6 border-separator">
-                                                <div class="menu-items">
-                                                    <!-- Price Headings -->
-                                                    <div class="price-heading">
-                                                        <div class="item-column">
-                                                            <span class="heading-column">Item</span>
-                                                        </div>
-                                                        <div class="price-columns">
-                                                            <span class="heading-column">Bottle</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 8 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">La Reserve De Leoville Barton, Saint Julien 2018</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$170</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 9 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Château Langoa Barton, Saint Julien 3rd GCC 2013</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$215</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 10 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Château Branaire Ducru, Saint Julien 4th GCC 2014</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$275</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 11 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Les Charmes De Kirwan, Margaux 2019</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$170</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 12 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Les Charmes De Kirwan, Margaux 2016 - Magnum</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$300</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 13 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Château La Tour De Mons, Margaux Cru Bourgeois Superieur 2019</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$175</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 14 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Chateau Citran, Haut Medoc 2020</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$105</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 15 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Château Cambon La Pelouse, Cru Bourgeois Exceptionnel 2017</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$110</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Menu Item 16 -->
-                                                    <div class="menu-item">
-                                                        <p class="item-name">Château Haut Lagrange, Pessac Léognan Red 2018</p>
-                                                        <div class="price-row">
-                                                            <span class="price-des">$125</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Mobile View -->
-                                    <div class="container mobile-view">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <!-- Subheading for Bordeaux Left Bank -->
-                                                <h4 class="subheading">Bordeaux Left Bank (Cabernet Sauvignon, Merlot)</h4>
-                                                <!-- Menu Item 1 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Château Potensac, Medoc 2017</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $140</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 2 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Château Tronquoy Lalande, Saint-Estèphe 2017</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $140</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 3 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">La Dame De Montrose, Saint-Estèphe 2017</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $200</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 4 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Château Cos d’Estournel, Saint Estèphe Les Pagodes De Cos</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $250</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 5 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Chateau Lynch Moussas, Pauillac 5th GCC 2017</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $250</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 6 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Château D’Armailhac, Pauillac 5th GCC 2012</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $300</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 7 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Château Haut Bages Liberal, Pauillac 5th GCC 2010</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $350</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 8 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">La Reserve De Leoville Barton, Saint Julien 2018</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $170</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 9 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Château Langoa Barton, Saint Julien 3rd GCC 2013</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $215</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 10 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Château Branaire Ducru, Saint Julien 4th GCC 2014</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $275</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 11 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Les Charmes De Kirwan, Margaux 2019</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $170</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 12 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Les Charmes De Kirwan, Margaux 2016 - Magnum</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $300</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 13 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Château La Tour De Mons, Margaux Cru Bourgeois Superieur 2019</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $175</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 14 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Chateau Citran, Haut Medoc 2020</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $105</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 15 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Château Cambon La Pelouse, Cru Bourgeois Exceptionnel 2017</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $110</span>
-                                                    </div>
-                                                </div>
-                                                <!-- Menu Item 16 -->
-                                                <div class="menu-item">
-                                                    <p class="item-name">Château Haut Lagrange, Pessac Léognan Red 2018</p>
-                                                    <div class="price-row">
-                                                        <span class="price-drink">Bottle: $125</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                <!--Bordeux--end-->
-                <!--Burgundy red-->
-                <div class="tab-pane burred" id="burred">
-                    <div class="menu-content">
-                        <div class="block-text center">
-                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">BURGUNDY RED</h3>
-                        </div>
-                        <div class="menu-main">
-                            <ul class="menu-list">
-                                <!-- Menu Item 1 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                                    <h5 class="name"><span class="txt">Dubois Et, Fils, Bourgogne Cote D'Or Vv Red 2021 - Magnum</span><span class="price">$200</span></h5>
-                                    <p>Burgundy Red</p>
-                                </li>
-                                <!-- Menu Item 2 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                                    <h5 class="name"><span class="txt">Dubois Et, Fils, Vosne Romanee Les Chalandins 2020</span><span class="price">$300</span></h5>
-                                    <p>Burgundy Red</p>
-                                </li>
-                                <!-- Menu Item 3 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                    <h5 class="name"><span class="txt">Chevillon Chezeaux, Nuits Saint Georges Vielles Vignes 2021</span><span class="price">$175</span></h5>
-                                    <p>Burgundy Red</p>
-                                </li>
-                            </ul>
-
-                            <ul class="menu-list pl-30">
-                                <!-- Menu Item 4 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                                    <h5 class="name"><span class="txt">Domaine Delagrange, Volnay Vieilles Vignes 2021</span><span class="price">$175</span></h5>
-                                    <p>Burgundy Red</p>
-                                </li>
-                                <!-- Menu Item 5 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                                    <h5 class="name"><span class="txt">Guy Amiot, Chassagne Montrachet Vv Red - Magnum 2018</span><span class="price">$350</span></h5>
-                                    <p>Burgundy Red</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--Bugundy red end-->
+                
+                
+              
                 <!--gamay-->
                 <div class="tab-pane gamy" id="gamy">
                         <div class="menu-container">
@@ -1852,241 +2086,9 @@
                         </div>
                     </div>
                 <!--rhone2 end-->
-                <!--south -->
-                <div class="tab-pane south" id="south">
-                    <div class="menu-content">
-                        <div class="block-text center">
-                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">SOUTH WEST FRANCE</h3>
-                        </div>
-                        <div class="menu-main">
-                            <ul class="menu-list">
-                                <!-- Menu Item 1 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                                    <h5 class="name"><span class="txt">Combel La Serre, Cahors Lax Aux Cochons 2014</span><span class="price">$175</span></h5>
-                                    <p>Malbec</p>
-                                </li>
-                            </ul>
-
-                            <ul class="menu-list pl-30">
-                                <!-- Empty list for alignment purposes -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--South end-->
-                <!--wine cock-->
-                <div class="tab-pane winecock" id="winecock">
-                <div class="menu-content">
-                    <div class="block-text center">
-                        <h3 class="title" data-aos-duration="1000" data-aos="fade-up">WINE COCKTAILS</h3>
-                    </div>
-                    <div class="menu-main">
-                        <ul class="menu-list">
-                            <!-- Menu Item 1 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                                <h5 class="name"><span class="txt">Red Wine Sangria</span><span class="price">$18.00</span></h5>
-                                <p>Red wine-based cocktail with seasonal fruits</p>
-                            </li>
-                            <!-- Menu Item 2 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                                <h5 class="name"><span class="txt">White Wine Sangria</span><span class="price">$18.00</span></h5>
-                                <p>White wine-based cocktail with seasonal fruits</p>
-                            </li>
-                            <!-- Menu Item 3 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                <h5 class="name"><span class="txt">French 75</span><span class="price">$16.00</span></h5>
-                                <p>Sparkling wine, gin, sugar, lemon juice</p>
-                            </li>
-                            <!-- Menu Item 4 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                                <h5 class="name"><span class="txt">French Valet</span><span class="price">$16.00</span></h5>
-                                <p>Red wine, coke</p>
-                            </li>
-                            <!-- Menu Item 5 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                                <h5 class="name"><span class="txt">Kir Royale</span><span class="price">$16.00</span></h5>
-                                <p>Champagne, crème de cassis</p>
-                            </li>
-                        </ul>
-
-                        <ul class="menu-list pl-30">
-                            <!-- Menu Item 6 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                                <h5 class="name"><span class="txt">1789</span><span class="price">$20.00</span></h5>
-                                <p>White wine, whisky, Lillet Blanc</p>
-                            </li>
-                            <!-- Menu Item 7 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                                <h5 class="name"><span class="txt">French Kiss</span><span class="price">$20.00</span></h5>
-                                <p>Sparkling wine, Campari, sugars</p>
-                            </li>
-                            <!-- Menu Item 8 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-                                <h5 class="name"><span class="txt">Sparkling French</span><span class="price">$20.00</span></h5>
-                                <p>Sparkling wine, orange juice</p>
-                            </li>
-                            <!-- Menu Item 9 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
-                                <h5 class="name"><span class="txt">Jannah</span><span class="price">$22.00</span></h5>
-                                <p>Bourbon, red wine, lemon</p>
-                            </li>
-                            <!-- Menu Item 10 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
-                                <h5 class="name"><span class="txt">White Flag</span><span class="price">$22.00</span></h5>
-                                <p>White wine, tonic</p>
-                            </li>
-                            <!-- Menu Item 11 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
-                                <h5 class="name"><span class="txt">White Wine Mojito</span><span class="price">$22.00</span></h5>
-                                <p>White wine, lemon</p>
-                            </li>
-                            <!-- Menu Item 12 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
-                                <h5 class="name"><span class="txt">Blue Lagoon</span><span class="price">$22.00</span></h5>
-                                <p>White wine, ginger ale, blue curaçao</p>
-                            </li>
-                            <!-- Menu Item 13 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">
-                                <h5 class="name"><span class="txt">Mimosa</span><span class="price">$22.00</span></h5>
-                                <p>Champagne, orange juice</p>
-                            </li>
-                            <!-- Menu Item 14 -->
-                            <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400">
-                                <h5 class="name"><span class="txt">La Seine Rouge (Jules Special)</span><span class="price">$22.00</span></h5>
-                                <p>Signature red wine cocktail</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-                <!--wine cock-->
-                <!--cocktitles-->
-                <div class="tab-pane cock" id="cock">
-                    <div class="menu-content">
-                        <div class="block-text center">
-                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">COCKTAILS</h3>
-                        </div>
-                        <div class="menu-main">
-                            <ul class="menu-list">
-                                <!-- Menu Item 1 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                                    <h5 class="name"><span class="txt">Boulevardier</span><span class="price">$20</span></h5>
-                                    <p>Bourbon, Campari, Vermouth</p>
-                                </li>
-                                <!-- Menu Item 2 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                                    <h5 class="name"><span class="txt">The Frenchie (French Martini)</span><span class="price">$16</span></h5>
-                                    <p>Vodka, Chamrod, Pineapple Juice</p>
-                                </li>
-                                <!-- Menu Item 3 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                    <h5 class="name"><span class="txt">French Mule</span><span class="price">$16</span></h5>
-                                    <p>Remy, Lime Juice, Ginger Ale</p>
-                                </li>
-                                <!-- Menu Item 4 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                                    <h5 class="name"><span class="txt">HK416 F</span><span class="price">$22</span></h5>
-                                    <p>Gin, Vodka, Rum, Brandy, Whisky, Bourbon</p>
-                                </li>
-                                <!-- Menu Item 5 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                                    <h5 class="name"><span class="txt">French Gimlet</span><span class="price">$24</span></h5>
-                                    <p>Gin, Sugar, Lime</p>
-                                </li>
-                            </ul>
-
-                            <ul class="menu-list pl-30">
-                                <!-- Menu Item 6 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                                    <h5 class="name"><span class="txt">Tetards Blancs</span><span class="price">$24</span></h5>
-                                    <p>Gin, Vodka, Rum, Tequila, Triple Sec, Bailey</p>
-                                </li>
-                                <!-- Menu Item 7 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                                    <h5 class="name"><span class="txt">Screwdriver</span><span class="price">$16</span></h5>
-                                    <p>Vodka, Orange Juice</p>
-                                </li>
-                                <!-- Menu Item 8 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-                                    <h5 class="name"><span class="txt">Hangover</span><span class="price">$18</span></h5>
-                                    <p>Rum, Gin, Orange Liqueur, Lemon</p>
-                                </li>
-                                <!-- Menu Item 9 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
-                                    <h5 class="name"><span class="txt">Singapore Sling</span><span class="price">$20</span></h5>
-                                    <p>Gin, Pineapple juice, Lime juice, Curaçao, Bénédictine, Grenadine & Cherry liqueur</p>
-                                </li>
-                                <!-- Menu Item 10 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
-                                    <h5 class="name"><span class="txt">Long Island Tea</span><span class="price">$20</span></h5>
-                                    <p>Vodka, Gin, Tequila, Light Rum, Triple Sec, Cola & Fresh Lemon Juice</p>
-                                </li>
-                                <!-- Menu Item 11 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
-                                    <h5 class="name"><span class="txt">Mojito</span><span class="price">$22</span></h5>
-                                    <p>Rum, Lime Juice & Ice</p>
-                                </li>
-                                <!-- Menu Item 12 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
-                                    <h5 class="name"><span class="txt">Daiquiri</span><span class="price">$16</span></h5>
-                                    <p>White Rum, Lime Juice & Sugar</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--Cocktitle end-->
-                <!--Mocktails-->
-                <div class="tab-pane mocatails" id="mocktails">
-                    <div class="menu-content">
-                        <div class="block-text center">
-                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">MOCKTAILS</h3>
-                        </div>
-                        <div class="menu-main">
-                            <ul class="menu-list">
-                                <!-- Menu Item 1 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                                    <h5 class="name"><span class="txt">Alorange</span><span class="price">$16</span></h5>
-                                    <p>Orange Juice, Lime, Soda</p>
-                                </li>
-                                <!-- Menu Item 2 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                                    <h5 class="name"><span class="txt">French Princess</span><span class="price">$16</span></h5>
-                                    <p>Orange Juice, Pineapple Juice, Lemon, Ginger Ale</p>
-                                </li>
-                                <!-- Menu Item 3 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                                    <h5 class="name"><span class="txt">Appletini</span><span class="price">$16</span></h5>
-                                    <p>Apple Juice, Lemon</p>
-                                </li>
-                                <!-- Menu Item 4 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                                    <h5 class="name"><span class="txt">Virgin Mojito</span><span class="price">$16</span></h5>
-                                    <p>Lime Juice, Mint</p>
-                                </li>
-                                <!-- Menu Item 5 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                                    <h5 class="name"><span class="txt">Sunset</span><span class="price">$16</span></h5>
-                                    <p>Iced Tea, Lemonade</p>
-                                </li>
-                            </ul>
-
-                            <ul class="menu-list pl-30">
-                                <!-- Menu Item 6 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                                    <h5 class="name"><span class="txt">Citrus Sling</span><span class="price">$16</span></h5>
-                                    <p>Orange, Lemon, Lime, Sparkling Water</p>
-                                </li>
-                                <!-- Menu Item 7 -->
-                                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                                    <h5 class="name"><span class="txt">Sunrise</span><span class="price">$16</span></h5>
-                                    <p>Orange, Grenadine</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--Mocktails end-->
+                
+                
+                
                 <!--sprits-->
                 <div class="tab-pane sprits" id="sprits">
                         <div class="menu-container">
@@ -2389,8 +2391,8 @@
                                         <p class="item-name">Orange, Pineapple, Lime, Lemon</p>
                                         <div class="price-row">
                                             <span class="price-des">$8</span>
-                                            <span class="price-des"></span>
-                                            <span class="price-des"></span>
+                                            <span class="price-des">$0.00</span>
+                                            <span class="price-des">$0.00</span>
                                         </div>
                                     </div>
                                     <!-- Soft Drinks -->
@@ -2399,8 +2401,8 @@
                                         <p class="item-name">Coke, Coke Zero, Sprite, Fanta Orange, Soda, Tonic, Ginger Ale</p>
                                         <div class="price-row">
                                             <span class="price-des">$6</span>
-                                            <span class="price-des"></span>
-                                            <span class="price-des"></span>
+                                            <span class="price-des">$0.00</span>
+                                            <span class="price-des">$0.00</span>
                                         </div>
                                     </div>
                                 </div>
@@ -2424,8 +2426,8 @@
                                         <p class="item-name">Evian Still, Evian Sparkling</p>
                                         <div class="price-row">
                                             <span class="price-des">$8</span>
-                                            <span class="price-des"></span>
-                                            <span class="price-des"></span>
+                                            <span class="price-des">$0.00</span>
+                                            <span class="price-des">$0.00</span>
                                         </div>
                                     </div>
                                     <!-- Teas -->
@@ -2434,8 +2436,8 @@
                                         <p class="item-name">English Breakfast, Green Tea, Chamomile, Earl Grey</p>
                                         <div class="price-row">
                                             <span class="price-des">$8</span>
-                                            <span class="price-des"></span>
-                                            <span class="price-des"></span>
+                                            <span class="price-des">$0.00</span>
+                                            <span class="price-des">$0.00</span>
                                         </div>
                                     </div>
                                     <!-- Coffee -->
@@ -2444,8 +2446,8 @@
                                         <p class="item-name">Coffee</p>
                                         <div class="price-row">
                                             <span class="price-des">$8</span>
-                                            <span class="price-des"></span>
-                                            <span class="price-des"></span>
+                                            <span class="price-des">$0.00</span>
+                                            <span class="price-des">$0.00</span>
                                         </div>
                                     </div>
                                 </div>
@@ -2458,7 +2460,6 @@
                         <div class="row">
                             <div class="col-12">
                                 <!-- Draught Beer -->
-                                <h4 class="subheading">Draught Beer</h4>
                                 <div class="menu-item">
                                     <p class="item-name">Heineken, Tiger, Erdinger, Guinness</p>
                                     <div class="price-row">
