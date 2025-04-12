@@ -17,6 +17,13 @@
     <script src="https://code.highcharts.com/highcharts.js"></script>
 	<!--Custom CSS -->
     <link rel="stylesheet" href="assets/css/menu.css" />
+    <style>
+        .border-separator {
+    border-left: 1px solid #ccc; /* Light gray line */
+    padding-left: 20px; /* Optional: space between line and content */
+}
+
+    </style>
    
 </head>
 
@@ -73,7 +80,9 @@
                 <li class="all_items" data-filter=".bar">BAR SNACKS</li>
                 <li class="all_items" data-filter=".desserts">DESSERTS</li>
                 <li class="all_items" data-filter=".kids">KIDS MENU</li>
-                <li class="all_items" data-filter=".whitewine">WHITE WINE</li>                
+                <li class="all_items" data-filter=".whitewine">WHITE WINE</li>
+                <li class="all_items" data-filter=".roeswine">WHITE WINE</li>                
+                
 			  </ul>
 
 			  <!-- Tab Content -->
@@ -544,13 +553,13 @@
                 <!--White Wine-->
                 <div class="tab-pane whitewine" id="whitewine">
                 <div class="menu-container">
-                       
+                <h1 class="menu-title text-center">WHITE WINE</h1>
                         <!-- Desktop View -->
                         <div class="container desktop-view">
                             <div class="row">
                             <!-- Combined Column: Menu Items and Prices -->
                             <div class="col-6">
-                            <h1 class="menu-title text-center">WHITE WINE</h1>
+                            
                                 <div class="menu-items">
                                 <!-- Price Headings -->
                                 <div class="price-heading">
@@ -581,6 +590,24 @@
                                     <span class="price-des">$0.00</span>
                                     </div>
                                 </div>
+                                
+                                </div>
+                            </div>
+                            <div class="col-6 border-separator">
+                           
+                                <div class="menu-items">
+                                <!-- Price Headings -->
+                                <div class="price-heading">
+                                    <div class="item-column">
+                                    <span class="heading-column">Item</span>
+                                    </div>
+                                    <div class="price-columns">
+                                    <span class="heading-column">Glass</span>
+                                    <span class="heading-column">Carafe</span>
+                                    <span class="heading-column">Bottle</span>
+                                    </div>
+                                </div>
+                                
                                 <!-- Menu Item 3 -->
                                 <div class="menu-item">
                                     <p class="item-name">Château La Pénellerie, Bordeaux 2023 - Sauvignon, Semillon</p>
@@ -602,13 +629,14 @@
                                 </div>
                             </div>
                             </div>
+                            </div>
                             
+
                         </div>
                         <!-- Mobile View -->
                         <div class="container mobile-view">
                             <div class="row">
                             <div class="col-12">
-                            <h1 class="menu-title text-center">WHITE WINE</h1>
                                 <div class="menu-item">
                                 <p class="item-name">Cloudy Bay 2022 - Sauvignon</p>
                                 <div class="price-row">
@@ -644,10 +672,14 @@
                             </div>
                             </div>
                         </div>
-                        </div>
+                 </div>
                 </div>
 
                 <!--White wine End-->
+                <!--Roes Wine-->
+                <!--Rose Wine end-->
+
+
 
 			</div> <!-- row -->
 		  </div> <!-- container -->
