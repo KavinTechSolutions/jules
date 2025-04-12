@@ -181,12 +181,7 @@
 		border-radius: 30px;
 	}
 	 /* General Reset */
-/* Menu Container */
-.menu-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
 
 /* Menu Title */
 .menu-title {
@@ -311,4 +306,5 @@
         display: block;
         
     }
+	
 }
