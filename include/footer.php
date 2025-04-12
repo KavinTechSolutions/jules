@@ -18,12 +18,15 @@
                         <div class="widget time">
                             <h5>opening time</h5>
                             <ul>
-                                <li>Mon - Fri : 9:00am - 22:00pm</li>
-                                <li>Sat: 10:00am - 23:00pm</li>
-                                <li>Sun: 5:00pm - 23:00pm</li>
-                                <li>Holidays: Closed</li>
-                                <li>Happy Hours: 18:00pm - 20:00pm</li>
-                            </ul>
+								<li>Saturday : 11:00am – 12:00am</li>
+								<li>Sunday : 11:00am – 12:00am</li>
+								<li>Monday : 11:00am – 11:30pm</li>
+								<li>Tuesday : 11:00am – 11:30pm</li>
+								<li>Wednesday : 11:00am – 11:30pm</li>
+								<li>Thursday : 11:00am – 12:00am</li>
+								<li>Friday : 11:00am – 12:00am</li>
+							</ul>
+
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">

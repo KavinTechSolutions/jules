@@ -59,7 +59,8 @@
                     <div class="col-12">
                         <div class="contact-main">
                             <div class="top-map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.806162973085!2d103.84389927581668!3d1.2906077617616436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a038007c9d%3A0x20e5acd1e8ccf02!2sClarke%20Quay!5e0!3m2!1sen!2sin!4v1744353560646!5m2!1sen!2sin" width="100%" height="533px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8056988211774!2d103.84198417581673!3d1.2909036617607261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da191a4ee9e77b%3A0xa9527f10822342e5!2sJules%20Epicurean%20French%20Cuisine!5e0!3m2!1sen!2sin!4v1744443801399!5m2!1sen!2sin" width="100%" height="533px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
 
                             <div class="contact-info">
@@ -82,9 +83,8 @@
                                 <div class="item" data-aos-duration="1000" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                                     <div class="icon"><i class="fa fa-phone-volume"></i></div>
                                     <h5>open time</h5>
-                                    <p>Mon - Fri : 9.00am - 22.00pm </p>
-                                    <p>Saturday : 11.00 - 23.00 Sunday : close</p>
-
+                                    <p>Saturday - Sunday : 11.00am - 12.00pm</p>
+									<p>Holidays: Hours might differ</p>
                                 </div>
                             </div>
                         </div>

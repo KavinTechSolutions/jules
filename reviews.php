@@ -143,9 +143,9 @@
 			  <div class="col-md-6 col-sm-6 col-12 mb-4">
 				<div class="review-card">
 				  <div class="review-header">
-					<img class="profile-pic" src="assets/images/reviews/user1.png" alt="User Image">
+					<img class="profile-pic" src="assets/images/reviews/user4.png" alt="User Image">
 					<div class="user-info">
-					  <h5 class="user-name">Khozema Manasawala</h5>
+					  <h5 class="user-name">Miki Tang</h5>
 						<div class="stars">
 						  <i class="fa fa-star"></i>
 						  <i class="fa fa-star"></i>
@@ -154,13 +154,13 @@
 						  <i class="fa fa-star"></i>
 						</div>
 					</div>
-					<div class="google-info">
+					<a href="https://maps.app.goo.gl/n7xzb8ScesjgQKL37"><div class="google-info">
 					  <img src="assets/images/reviews/google_logo.png" class="google-logo" alt="Google Logo">
-					  <div class="review-date">15-02-2025</div>
-					</div>
+					  <div class="review-date">1 months ago</div>
+					</div></a>
 				  </div>
 				  <div class="review-body">
-					<p class="quote">hands down, one of the best Turkish food I've had in Singapore. Strongly recommend visiting here. Won't be dissapointed</p>
+					<p class="quote">Jules French Cuisine delivers authentic French dishes in an elegant setting. With attentive service and classic menu options like escargot and coq au vin, it’s perfect for any special occasion. Food is delicious and we had a good time dining here.</p>
 				  </div>
 				</div>
 			  </div>
@@ -169,9 +169,9 @@
 			  <div class="col-md-6 col-sm-6 col-12 mb-4">
 				<div class="review-card">
 				  <div class="review-header">
-					<img class="profile-pic" src="assets/images/reviews/user2.png" alt="User Image">
+					<img class="profile-pic" src="assets/images/reviews/user5.png" alt="User Image">
 					<div class="user-info">
-					  <h5 class="user-name">Kong Diana</h5>
+					  <h5 class="user-name">Estine Morris</h5>
 					  <div class="stars">
 						<div class="stars">
 						  <i class="fa fa-star"></i>
@@ -183,12 +183,20 @@
 					  </div>
 					</div>
 					<div class="google-info">
-					  <img src="assets/images/reviews/google_logo.png" class="google-logo" alt="Google Logo">
-					  <div class="review-date">15-01-2025</div>
+					  <a href="https://maps.app.goo.gl/rFPtxCA256BcXfJp9" ><img src="assets/images/reviews/google_logo.png" class="google-logo" alt="Google Logo">
+					  <div class="review-date">2 months ago</div> </a>
 					</div>
 				  </div>
 				  <div class="review-body">
-					<p class="quote">Our first time visit and first try for Turkish Meal which highly recommended! Food was good, service was good too. They even offer us to try different types of rice. Too full for dessert but def will visit again!</p>
+					<p class="quote">OI recently had the pleasure of dining at Jules a brand-new French cuisine gem in Clarke Quay and former French chef from Les Amis. The restaurant had comfortable seating with chilled ambiance by the river.
+
+					I opted for the cheese and meat board. Each cheese perfectly aged, and the meats were rich and flavourful, even the lettuce garnish was fresh plus nicely seasoned.
+
+					The escargot with herbs were a highlight, with the snails tender and bursting with garlicky yummyiness.
+
+					As the weather was hot, I treated myself to a wine cocktail—hmm I did have my reservations at first about the contents but it was indeed a refreshing and innovative concoction that added a cool twist to the evening. Move over Singapore sling?
+
+					Overall, Jules is a must-visit for anyone who appreciates classic French cuisine in a relaxed setting. I’ll definitely be returning soon. In fact I’ve booked for again for an alumni mixer next week.</p>
 				  </div>
 				</div>
 			  </div>
@@ -197,9 +205,9 @@
 			  <div class="col-md-6 col-sm-6 col-12 mb-4">
 				<div class="review-card">
 				  <div class="review-header">
-					<img class="profile-pic" src="assets/images/reviews/user3.png" alt="User Image">
+					<img class="profile-pic" src="assets/images/reviews/user6.png" alt="User Image">
 					<div class="user-info">
-					  <h5 class="user-name">Sandra Ong</h5>
+					  <h5 class="user-name">Angel Elliott</h5>
 					  <div class="stars">
 						<div class="stars">
 						  <i class="fa fa-star"></i>
@@ -211,12 +219,12 @@
 					  </div>
 					</div>
 					<div class="google-info">
-					  <img src="assets/images/reviews/google_logo.png" class="google-logo" alt="Google Logo">
-					  <div class="review-date">12-01-2025</div>
+					  <a href="https://maps.app.goo.gl/kZT69uQAndK9dTFr7"><img src="assets/images/reviews/google_logo.png" class="google-logo" alt="Google Logo">
+					  <div class="review-date">2 months ago</div></a>
 					</div>
 				  </div>
 				  <div class="review-body">
-					<p class="quote">Nice food on our first visit. Loved the lamb shank & chicken kebab. Cheese pide is another favourite. Friendly staff too! Will definitely be back!</p>
+					<p class="quote">A lovely new restaurant next to the water . We had a stunning meal . The meat platter was delicious. Rajesh was our server , he was excellent . Great service . Very friendly and welcoming & excellent wine. The meat was cooked perfectly .</p>
 				  </div>
 				</div>
 			  </div>

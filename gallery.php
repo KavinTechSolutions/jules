@@ -105,13 +105,13 @@
 				  </a>
 				</figure>
 			  </div>
-			   <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
+			   <!--<div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
 				<figure class="rx-gallery-card">
 				  <a class="rx-gallery-img" href="assets/images/gallery/image6.jpg" data-fancybox="gallery">
 					<img src="assets/images/gallery/image6.jpg" alt="gallery-2">
 				  </a>
 				</figure>
-			  </div>
+			  </div>-->
 			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="restaurant">
 				<figure class="rx-gallery-card">
 				  <a class="rx-gallery-img" href="assets/images/gallery/image2.jpg" data-fancybox="gallery">
@@ -119,13 +119,23 @@
 				  </a>
 				</figure>
 			  </div>
-			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="video">
-				<figure class="rx-gallery-card">
-				  <a class="rx-gallery-img" href="assets/images/gallery/image4.jpg" data-fancybox="gallery">
-					<img src="assets/images/gallery/image4.jpg" alt="gallery-3">
-				  </a>
-				</figure>
-			  </div>
+			<div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="video">
+			  <figure class="rx-gallery-card">
+				<a
+				  class="rx-gallery-img"
+				  href="assets/images/gallery/videos/video1.mp4"
+				  data-fancybox="gallery"
+				  data-type="video"
+				>
+				  <video width="100%" muted autoplay loop playsinline>
+					<source src="assets/images/gallery/videos/video1.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				  </video>
+				</a>
+			  </figure>
+			</div>
+
+
 			  <!-- Add more gallery items as needed -->
 			</div>
 		  </div>

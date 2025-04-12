@@ -853,6 +853,20 @@
 
     <script src="app/js/count-down.js"></script>
     <script src="app/js/countto.js"></script>
+	<script>
+	  var swiper = new Swiper(".mySwiper", {
+		loop: true,
+		speed: 2000, // transition duration in ms (1000 = 1 second)
+		autoplay: {
+		  delay: 3000, // 3 seconds between slides
+		  disableOnInteraction: false,
+		},
+		pagination: {
+		  el: ".swiper-pagination",
+		  clickable: true,
+		},
+	  });
+	</script>
 
 
 </body>
