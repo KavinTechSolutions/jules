@@ -13,7 +13,7 @@
                                         <p class="sub-title">Craving some delicious Paris food? Maybe you’re in the mood
                                             for a juicy steak? No matter what kind of meal you have in mind.</p>
                                         <div class="wrap-btn">
-                                            <a href="menu_list.html" class="tf-button style2">
+                                            <a href="menu_list.php" class="tf-button style2">
                                                 discovery menu
                                             </a>
                                         </div>
@@ -37,7 +37,7 @@
                                         <p class="sub-title">Craving some delicious Paris food? Maybe you’re in the mood
                                             for a juicy steak? No matter what kind of meal you have in mind.</p>
                                         <div class="wrap-btn">
-                                            <a href="menu_list.html" class="tf-button style2">
+                                            <a href="menu_list.php" class="tf-button style2">
                                                 discovery menu
                                             </a>
                                         </div>
@@ -61,7 +61,7 @@
                                         <p class="sub-title">Craving some delicious Paris food? Maybe you’re in the mood
                                             for a juicy steak? No matter what kind of meal you have in mind.</p>
                                         <div class="wrap-btn">
-                                            <a href="menu_list.html" class="tf-button style2">
+                                            <a href="menu_list.php" class="tf-button style2">
                                                 discovery menu
                                             </a>
                                         </div>
@@ -85,7 +85,7 @@
                                         <p class="sub-title">Craving some delicious Paris food? Maybe you’re in the mood
                                             for a juicy steak? No matter what kind of meal you have in mind.</p>
                                         <div class="wrap-btn">
-                                            <a href="menu_list.html" class="tf-button style2">
+                                            <a href="menu_list.php" class="tf-button style2">
                                                 discovery menu
                                             </a>
                                         </div>

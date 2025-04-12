@@ -77,6 +77,15 @@
 				  </a>
 				</figure>
 			  </div>
+			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="food">
+				<figure class="rx-gallery-card">
+				  <a class="rx-gallery-img" href="assets/images/gallery/img_2.jpg" data-fancybox="gallery">
+					<img src="assets/images/gallery/img_2.jpg" alt="gallery-2">
+				  </a>
+				</figure>
+			  </div>
+			  
+			  
 			  <div class="col-lg-4 col-sm-6 col-12 gallery-item" data-category="restaurant">
 				<figure class="rx-gallery-card">
 				  <a class="rx-gallery-img" href="assets/images/gallery/img_1.jpg" data-fancybox="gallery">
