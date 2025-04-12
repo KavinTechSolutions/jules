@@ -17,6 +17,7 @@
     <script src="https://code.highcharts.com/highcharts.js"></script>
 	<!--Custom CSS -->
     <link rel="stylesheet" href="assets/css/menu.css" />
+   
 </head>
 
 <body class="main header-fixed p-contact p-menu home-3 ">
@@ -115,51 +116,165 @@
 
 				<!-- STARTERS -->
 				<div class="tab-pane starters" id="starters">
-				  <div class="menu-content">
-					<div class="block-text center">
-					  <h3 class="title" data-aos-duration="1000" data-aos="fade-up">STARTERS</h3>
-					</div>
-					<div class="menu-main">
-					  <ul class="menu-list">
-						<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-						  <h5 class="name"><span class="txt">French Onion Soup (Soupe A L' oignon) (VG)</span><span class="price">$17.90</span></h5>
-						  <p>Traditional French soup with caramelized onions, vegetable stock, & croutons topped with melted cheese.</p>
-						</li>
-						<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-						  <h5 class="name"><span class="txt">Hummus Salad (Salade De Tomates Et Concombres) (VG)</span><span class="price">$17.90</span></h5>
-						  <p>Tomato, cucumber, hummus, parsley, fried chickpeas and extra virgin olive oil</p>
-						</li>
-						<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-						  <h5 class="name"><span class="txt">ESCARGOT DE BOURGOGNE (6Pcs)</span><span class="price">$19.90</span></h5>
-						  <p>Burgundy snails in garlic herbs butter.</p>
-						</li>
-						<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-						  <h5 class="name"><span class="txt">Smoked Salmon Salad (Nicoa de Saumon Fume)</span><span class="price">$21.90</span></h5>
-						  <p>Smoked salmon nicoise, potato, green bean, tomato, olive, egg and house dressing</p>
-						</li>
-					  </ul>
+                <div class="menu-container">
+                                <h1 class="menu-title text-center">DRINK MENU</h1>
 
-					  <ul class="menu-list pl-30">
-						<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-						  <h5 class="name"><span class="txt">Camembert Cheese (VG) (Camembert Au Four)</span><span class="price">$27.90</span></h5>
-						  <p>Baked camembert cheese with garlic and white wine, served with crouton and salad</p>
-						</li>
-						<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-						  <h5 class="name"><span class="txt">Octopus Salad (Salade De Cussie Pouple Grille)</span><span class="price">$33.90</span></h5>
-						  <p>Grilled octopus leg, parsley and dill salad, potato, orange segment and extra virgin olive oil</p>
-						</li>
-						<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-						  <h5 class="name"><span class="txt">Foie Gras (Foie Gras Terrine)</span><span class="price">$35.90</span></h5>
-						  <p>Foie gras terrine, fig compote and brioche</p>
-						</li>
-						<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-						  <h5 class="name"><span class="txt">Cold Cut (Charcuteries)</span><span class="price">$39.90</span></h5>
-						  <p>Rosette, bayonne ham, coppa ham, dry sausage, cornichon, and walnut</p>
-						</li>
-					  </ul>
-					</div>
-				  </div>
-				</div>
+                                <!-- Desktop View -->
+                                <div class="container desktop-view">
+                                    <div class="row">
+                                        <!-- Combined Column: Menu Items and Prices -->
+                                        <div class="col-6">
+                                            <div class="menu-items">
+                                                <!-- Price Headings -->
+                                                <div class="price-heading">
+                                                    <div class="item-column">
+                                                        <span class="heading-column">Item</span>
+                                                    </div>
+                                                    <div class="price-columns">
+                                                        <span class="heading-column">Single</span>
+                                                        <span class="heading-column">Double</span>
+                                                        <span class="heading-column">Bottle</span>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Menu Item 1 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">BALLENTINE'S FINEST</p>
+                                                    <div class="price-row">
+                                                        <span class="price-des">$12.00</span>
+                                                        <span class="price-des">$20.00</span>
+                                                        <span class="price-des">$14.00</span>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Menu Item 2 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">CHIVAS REGAL 12 YRS</p>
+                                                    <div class="price-row">
+                                                        <span class="price-des">$14.00</span>
+                                                        <span class="price-des">$26.00</span>
+                                                        <span class="price-des">$140.00</span>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Menu Item 3 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">CHIVAS REGAL 18 YRS</p>
+                                                    <div class="price-row">
+                                                        <span class="price-des">$18.00</span>
+                                                        <span class="price-des">$32.00</span>
+                                                        <span class="price-des">$220.00</span>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Menu Item 4 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">MONKEY SHOULDER</p>
+                                                    <div class="price-row">
+                                                        <span class="price-des">$14.00</span>
+                                                        <span class="price-des">$26.00</span>
+                                                        <span class="price-des">$140.00</span>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Menu Item 5 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">JW BLACK LABEL 12 YRS</p>
+                                                    <div class="price-row">
+                                                        <span class="price-des">$14.00</span>
+                                                        <span class="price-des">$26.00</span>
+                                                        <span class="price-des">$140.00</span>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Menu Item 6 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">JW RED LABEL</p>
+                                                    <div class="price-row">
+                                                        <span class="price-des">$12.00</span>
+                                                        <span class="price-des">$20.00</span>
+                                                        <span class="price-des">$110.00</span>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Menu Item 7 -->
+                                                <div class="menu-item">
+                                                    <p class="item-name">JW DOUBLE BLACK LABEL</p>
+                                                    <div class="price-row">
+                                                        <span class="price-des">$15.00</span>
+                                                        <span class="price-des">$28.00</span>
+                                                        <span class="price-des">$180.00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Mobile View -->
+                                <div class="container mobile-view">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="menu-item">
+                                                <p class="item-name">BALLENTINE'S FINEST</p>
+                                                <div class="price-row">
+                                                    <span class="price-drink">Single: $12.00</span>
+                                                    <span class="price-drink">Double: $20.00</span>
+                                                    <span class="price-drink">Bottle: $14.00</span>
+                                                </div>
+                                            </div>
+                                            <div class="menu-item">
+                                                <p class="item-name">CHIVAS REGAL 12 YRS</p>
+                                                <div class="price-row">
+                                                    <span class="price-drink">Single: $14.00</span>
+                                                    <span class="price-drink">Double: $26.00</span>
+                                                    <span class="price-drink">Bottle: $140.00</span>
+                                                </div>
+                                            </div>
+                                            <div class="menu-item">
+                                                <p class="item-name">CHIVAS REGAL 18 YRS</p>
+                                                <div class="price-row">
+                                                    <span class="price-drink">Single: $18.00</span>
+                                                    <span class="price-drink">Double: $32.00</span>
+                                                    <span class="price-drink">Bottle: $220.00</span>
+                                                </div>
+                                            </div>
+                                            <div class="menu-item">
+                                                <p class="item-name">MONKEY SHOULDER</p>
+                                                <div class="price-row">
+                                                    <span class="price-drink">Single: $14.00</span>
+                                                    <span class="price-drink">Double: $26.00</span>
+                                                    <span class="price-drink">Bottle: $140.00</span>
+                                                </div>
+                                            </div>
+                                            <div class="menu-item">
+                                                <p class="item-name">JW BLACK LABEL 12 YRS</p>
+                                                <div class="price-row">
+                                                    <span class="price-drink">Single: $14.00</span>
+                                                    <span class="price-drink">Double: $26.00</span>
+                                                    <span class="price-drink">Bottle: $140.00</span>
+                                                </div>
+                                            </div>
+                                            <div class="menu-item">
+                                                <p class="item-name">JW RED LABEL</p>
+                                                <div class="price-row">
+                                                    <span class="price-drink">Single: $12.00</span>
+                                                    <span class="price-drink">Double: $20.00</span>
+                                                    <span class="price-drink">Bottle: $110.00</span>
+                                                </div>
+                                            </div>
+                                            <div class="menu-item">
+                                                <p class="item-name">JW DOUBLE BLACK LABEL</p>
+                                                <div class="price-row">
+                                                    <span class="price-drink">Single: $15.00</span>
+                                                    <span class="price-drink">Double: $28.00</span>
+                                                    <span class="price-drink">Bottle: $180.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
 			  </div> <!-- tab-content -->
 			</div> <!-- row -->
