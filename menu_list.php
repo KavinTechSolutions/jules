@@ -18,12 +18,71 @@
 	<!--Custom CSS -->
     <link rel="stylesheet" href="assets/css/menu.css" />
     <style>
-        .border-separator {
-    border-left: 1px solid #ccc; /* Light gray line */
-    padding-left: 20px; /* Optional: space between line and content */
+.border-separator {
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
 }
 
-    </style>
+/* General Styles */
+.s-menu {
+    display: flex;
+    flex-direction: column; /* Default for mobile view */
+}
+
+.allmenu-filtering {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .allmenu-filtering {
+        flex-direction: row;
+    }
+}
+
+.allmenu-filtering li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.allmenu-filtering li.active {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.tab-content {
+    flex-grow: 1;
+    padding: 20px;
+    min-width: 0; /* Prevent overflow issues */
+    overflow-x: auto; /* Allow horizontal scroll if content exceeds container */
+}
+
+/* Desktop View */
+@media (min-width: 992px) {
+    .s-menu {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .allmenu-filtering {
+        width: 20%;
+        max-width: 250px;
+        border-right: 1px solid #ccc;
+        flex-shrink: 0;
+    }
+
+    .tab-content {
+        flex: 1; /* Let it take the rest of the space */
+        padding-left: 20px;
+    }
+}
+</style>
+
    
 </head>
 
@@ -68,8 +127,8 @@
 			<div class="row">
 			  <!-- Tab Navigation -->
 			  <ul class="allmenu-filtering">
-				<li class="all_items active" data-filter="*">ALL CATEGORIES</li>
-				<li class="all_items" data-filter=".dinein">DINE IN MENU</li>
+				<!-- <li class="all_items active" data-filter="*">ALL CATEGORIES</li> -->
+				<li class="all_items active" data-filter=".dinein">DINE IN MENU</li>
 				<li class="all_items" data-filter=".brunch">BRUNCH</li>
                 <li class="all_items" data-filter=".starters">STARTERS</li>
                 <li class="all_items" data-filter=".maincourse">MAIN COURSE</li>
@@ -1299,7 +1358,7 @@
 
                 <!--White wine End-->
                 <!--right-->
-                <div class="tab-pane bank" id="bank">
+                <div class="tab-pane bank" id="bank" style="width: 75%;">
                     <div class="menu-content">
                         <div class="block-text center">
                             <h3 class="title" data-aos-duration="1000" data-aos="fade-up">BORDEAUX RIGHT BANK</h3>
@@ -1340,7 +1399,7 @@
                 </div>
                 <!--right-->
                 <!--Roes Wine-->
-                <div class="tab-pane rosewine" id="rosewine">
+                <div class="tab-pane rosewine" id="rosewine" style="width: 75%;">
                     <div class="menu-container">
                         <h1 class="menu-title text-center">ROSÉ WINE</h1>
                         
@@ -1443,7 +1502,7 @@
                 </div>
                 <!--Rose Wine end-->
                 <!--Red Wine-->
-                <div class="tab-pane redwine" id="redwine">
+                <div class="tab-pane redwine" id="redwine" style="width: 75%;">
                         <div class="menu-container">
                             <h1 class="menu-title text-center">RED WINE</h1>
                             
@@ -1546,7 +1605,7 @@
                     </div>
                 <!--Red wine End-->
                 <!--SPAERKLE-->
-                <div class="tab-pane sparkle" id="sparkle">
+                <div class="tab-pane sparkle" id="sparkle"style="width: 75%;">
                         <div class="menu-container">
                             <h1 class="menu-title text-center">SPARKLING WINE</h1>
                             
@@ -1603,7 +1662,7 @@
                     </div>
                 <!--Sparkle end-->
                 <!--Champagne-->
-                <div class="tab-pane champagne" id="champagne">
+                <div class="tab-pane champagne" id="champagne"style="width: 75%;">
                     <div class="menu-container">
                         <h1 class="menu-title text-center">CHAMPAGNE</h1>
                         
@@ -1671,7 +1730,7 @@
                 <!--Lorie End-->
                 
                 <!--Burgundy White (Chardonnay)-->
-                <div class="tab-pane burgundy" id="burgundy">
+                <div class="tab-pane burgundy" id="burgundy"style="width: 75%;">
                         <div class="menu-container">
                             <!-- Desktop View -->
                             <div class="container desktop-view">
@@ -1804,7 +1863,7 @@
                     </div>
                 <!--Burgundy White (Chardonnay) end-->
                 <!--Rhone Valley White-->
-                <div class="tab-pane rhone" id="rhone">
+                <div class="tab-pane rhone" id="rhone"style="width: 75%;">
                         <div class="menu-container">
                             <!-- Desktop View -->
                             <div class="container desktop-view">
@@ -1857,7 +1916,7 @@
                     </div>
                 <!--Rhone Valley White end-->
                 <!--Lang-->
-                <div class="tab-pane lang" id="lang">
+                <div class="tab-pane lang" id="lang"style="width: 75%;">
                     <div class="menu-container">
                         <!-- Desktop View -->
                         <div class="container desktop-view">
@@ -1910,188 +1969,9 @@
                 </div>
                 <!--lang end-->
                 
-                
-              
-                <!--gamay-->
-                <div class="tab-pane gamy" id="gamy">
-                        <div class="menu-container">
-                            <!-- Desktop View -->
-                            <div class="container desktop-view">
-                                <div class="row">
-                                    <!-- Combined Column: Menu Items and Prices -->
-                                    <div class="col-6">
-                                        <div class="menu-items">
-                                            <!-- Price Headings -->
-                                            <div class="price-heading">
-                                                <div class="item-column">
-                                                    <span class="heading-column">Item</span>
-                                                </div>
-                                                <div class="price-columns">
-                                                    <span class="heading-column">Bottle</span>
-                                                </div>
-                                            </div>
-                                            <!-- Subheading for Beaujolais -->
-                                            <h4 class="subheading">Beaujolais (Gamay)</h4>
-                                            <!-- Menu Item 1 -->
-                                            <div class="menu-item">
-                                                <p class="item-name">Maison Le Nid, Moulin A Vent Tradition Red 2021</p>
-                                                <div class="price-row">
-                                                    <span class="price-des">$115</span>
-                                                </div>
-                                            </div>
-                                            <!-- Menu Item 2 -->
-                                            <div class="menu-item">
-                                                <p class="item-name">Joseph Burrier, Fleurie Colonies De Rochegrès Red 2019</p>
-                                                <div class="price-row">
-                                                    <span class="price-des">$115</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 border-separator">
-                                        <!-- Empty column for alignment purposes -->
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Mobile View -->
-                            <div class="container mobile-view">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <!-- Subheading for Beaujolais -->
-                                        <h4 class="subheading">Beaujolais (Gamay)</h4>
-                                        <!-- Menu Item 1 -->
-                                        <div class="menu-item">
-                                            <p class="item-name">Maison Le Nid, Moulin A Vent Tradition Red 2021</p>
-                                            <div class="price-row">
-                                                <span class="price-drink">Bottle: $115</span>
-                                            </div>
-                                        </div>
-                                        <!-- Menu Item 2 -->
-                                        <div class="menu-item">
-                                            <p class="item-name">Joseph Burrier, Fleurie Colonies De Rochegrès Red 2019</p>
-                                            <div class="price-row">
-                                                <span class="price-drink">Bottle: $115</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <!--gamy end-->
-                <!--rhone2-->
-                <div class="tab-pane rhone2" id="rhone2">
-                        <div class="menu-container">
-                            <!-- Desktop View -->
-                            <div class="container desktop-view">
-                                <div class="row">
-                                    <!-- Combined Column: Menu Items and Prices -->
-                                    <div class="col-6">
-                                        <div class="menu-items">
-                                            <!-- Price Headings -->
-                                            <div class="price-heading">
-                                                <div class="item-column">
-                                                    <span class="heading-column">Item</span>
-                                                </div>
-                                                <div class="price-columns">
-                                                    <span class="heading-column">Bottle</span>
-                                                </div>
-                                            </div>
-                                            <!-- Subheading for Rhone Valley -->
-                                            <h4 class="subheading">Rhone Valley (Grenache, Syrah, Mourvedre)</h4>
-                                            <!-- Menu Item 1 -->
-                                            <div class="menu-item">
-                                                <p class="item-name">Domaine De Boissan, Vacqueyras 2021-22 - Organic</p>
-                                                <div class="price-row">
-                                                    <span class="price-des">$95</span>
-                                                </div>
-                                            </div>
-                                            <!-- Menu Item 2 -->
-                                            <div class="menu-item">
-                                                <p class="item-name">Chêne Bleu, Astralabe 2019 - Organic</p>
-                                                <div class="price-row">
-                                                    <span class="price-des">$95</span>
-                                                </div>
-                                            </div>
-                                            <!-- Menu Item 3 -->
-                                            <div class="menu-item">
-                                                <p class="item-name">Domaine Du Grand Tinel, Châteauneuf Du Pape Red 2020</p>
-                                                <div class="price-row">
-                                                    <span class="price-des">$150</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 border-separator">
-                                        <div class="menu-items">
-                                            <!-- Price Headings -->
-                                            <div class="price-heading">
-                                                <div class="item-column">
-                                                    <span class="heading-column">Item</span>
-                                                </div>
-                                                <div class="price-columns">
-                                                    <span class="heading-column">Bottle</span>
-                                                </div>
-                                            </div>
-                                            <!-- Menu Item 4 -->
-                                            <div class="menu-item">
-                                                <p class="item-name">Domaine Du Grand Tinel, Châteauneuf Du Pape Red 2020 – Magnum</p>
-                                                <div class="price-row">
-                                                    <span class="price-des">$300</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Mobile View -->
-                            <div class="container mobile-view">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <!-- Subheading for Rhone Valley -->
-                                        <h4 class="subheading">Rhone Valley (Grenache, Syrah, Mourvedre)</h4>
-                                        <!-- Menu Item 1 -->
-                                        <div class="menu-item">
-                                            <p class="item-name">Domaine De Boissan, Vacqueyras 2021-22 - Organic</p>
-                                            <div class="price-row">
-                                                <span class="price-drink">Bottle: $95</span>
-                                            </div>
-                                        </div>
-                                        <!-- Menu Item 2 -->
-                                        <div class="menu-item">
-                                            <p class="item-name">Chêne Bleu, Astralabe 2019 - Organic</p>
-                                            <div class="price-row">
-                                                <span class="price-drink">Bottle: $95</span>
-                                            </div>
-                                        </div>
-                                        <!-- Menu Item 3 -->
-                                        <div class="menu-item">
-                                            <p class="item-name">Domaine Du Grand Tinel, Châteauneuf Du Pape Red 2020</p>
-                                            <div class="price-row">
-                                                <span class="price-drink">Bottle: $150</span>
-                                            </div>
-                                        </div>
-                                        <!-- Menu Item 4 -->
-                                        <div class="menu-item">
-                                            <p class="item-name">Domaine Du Grand Tinel, Châteauneuf Du Pape Red 2020 – Magnum</p>
-                                            <div class="price-row">
-                                                <span class="price-drink">Bottle: $300</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <!--rhone2 end-->
-                
-                
-                
-                <!--sprits-->
-                <div class="tab-pane sprits" id="sprits">
-                        <div class="menu-container">
+                 <!--sprits-->
+                 <div class="tab-pane sprits" id="sprits"style="width: 75%;">
+                        <div class="">
                             <h1 class="menu-title text-center">APÉRITIFS, DIGESTIFS, LIQUEURS & SPIRITS</h1>
                             <!-- Desktop View -->
                             <div class="container desktop-view">
@@ -2355,7 +2235,8 @@
                     </div>
                 <!--sprits-->
                 <!--Beer-->
-                <div class="tab-pane beer" id="beer">
+                <div class="tab-pane beer" id="beer" style="width: 76%;
+">
                 <div class="menu-container">
                     <h1 class="menu-title text-center">Draught Beer</h1>
                     <!-- Desktop View -->
@@ -2514,6 +2395,185 @@
                 </div>
             </div>
                 <!--Beer-->
+              
+                <!--gamay-->
+                <div class="tab-pane gamy" id="gamy"style="width: 75%;">
+                        <div class="menu-container">
+                            <!-- Desktop View -->
+                            <div class="container desktop-view">
+                                <div class="row">
+                                    <!-- Combined Column: Menu Items and Prices -->
+                                    <div class="col-6">
+                                        <div class="menu-items">
+                                            <!-- Price Headings -->
+                                            <div class="price-heading">
+                                                <div class="item-column">
+                                                    <span class="heading-column">Item</span>
+                                                </div>
+                                                <div class="price-columns">
+                                                    <span class="heading-column">Bottle</span>
+                                                </div>
+                                            </div>
+                                            <!-- Subheading for Beaujolais -->
+                                            <h4 class="subheading">Beaujolais (Gamay)</h4>
+                                            <!-- Menu Item 1 -->
+                                            <div class="menu-item">
+                                                <p class="item-name">Maison Le Nid, Moulin A Vent Tradition Red 2021</p>
+                                                <div class="price-row">
+                                                    <span class="price-des">$115</span>
+                                                </div>
+                                            </div>
+                                            <!-- Menu Item 2 -->
+                                            <div class="menu-item">
+                                                <p class="item-name">Joseph Burrier, Fleurie Colonies De Rochegrès Red 2019</p>
+                                                <div class="price-row">
+                                                    <span class="price-des">$115</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 border-separator">
+                                        <!-- Empty column for alignment purposes -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mobile View -->
+                            <div class="container mobile-view">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- Subheading for Beaujolais -->
+                                        <h4 class="subheading">Beaujolais (Gamay)</h4>
+                                        <!-- Menu Item 1 -->
+                                        <div class="menu-item">
+                                            <p class="item-name">Maison Le Nid, Moulin A Vent Tradition Red 2021</p>
+                                            <div class="price-row">
+                                                <span class="price-drink">Bottle: $115</span>
+                                            </div>
+                                        </div>
+                                        <!-- Menu Item 2 -->
+                                        <div class="menu-item">
+                                            <p class="item-name">Joseph Burrier, Fleurie Colonies De Rochegrès Red 2019</p>
+                                            <div class="price-row">
+                                                <span class="price-drink">Bottle: $115</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--gamy end-->
+                <!--rhone2-->
+                <div class="tab-pane rhone2" id="rhone2" style="width: 75%;">
+                        <div class="menu-container">
+                            <!-- Desktop View -->
+                            <div class="container desktop-view">
+                                <div class="row">
+                                    <!-- Combined Column: Menu Items and Prices -->
+                                    <div class="col-6">
+                                        <div class="menu-items">
+                                            <!-- Price Headings -->
+                                            <div class="price-heading">
+                                                <div class="item-column">
+                                                    <span class="heading-column">Item</span>
+                                                </div>
+                                                <div class="price-columns">
+                                                    <span class="heading-column">Bottle</span>
+                                                </div>
+                                            </div>
+                                            <!-- Subheading for Rhone Valley -->
+                                            <h4 class="subheading">Rhone Valley (Grenache, Syrah, Mourvedre)</h4>
+                                            <!-- Menu Item 1 -->
+                                            <div class="menu-item">
+                                                <p class="item-name">Domaine De Boissan, Vacqueyras 2021-22 - Organic</p>
+                                                <div class="price-row">
+                                                    <span class="price-des">$95</span>
+                                                </div>
+                                            </div>
+                                            <!-- Menu Item 2 -->
+                                            <div class="menu-item">
+                                                <p class="item-name">Chêne Bleu, Astralabe 2019 - Organic</p>
+                                                <div class="price-row">
+                                                    <span class="price-des">$95</span>
+                                                </div>
+                                            </div>
+                                            <!-- Menu Item 3 -->
+                                            <div class="menu-item">
+                                                <p class="item-name">Domaine Du Grand Tinel, Châteauneuf Du Pape Red 2020</p>
+                                                <div class="price-row">
+                                                    <span class="price-des">$150</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 border-separator">
+                                        <div class="menu-items">
+                                            <!-- Price Headings -->
+                                            <div class="price-heading">
+                                                <div class="item-column">
+                                                    <span class="heading-column">Item</span>
+                                                </div>
+                                                <div class="price-columns">
+                                                    <span class="heading-column">Bottle</span>
+                                                </div>
+                                            </div>
+                                            <!-- Menu Item 4 -->
+                                            <div class="menu-item">
+                                                <p class="item-name">Domaine Du Grand Tinel, Châteauneuf Du Pape Red 2020 – Magnum</p>
+                                                <div class="price-row">
+                                                    <span class="price-des">$300</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mobile View -->
+                            <div class="container mobile-view">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- Subheading for Rhone Valley -->
+                                        <h4 class="subheading">Rhone Valley (Grenache, Syrah, Mourvedre)</h4>
+                                        <!-- Menu Item 1 -->
+                                        <div class="menu-item">
+                                            <p class="item-name">Domaine De Boissan, Vacqueyras 2021-22 - Organic</p>
+                                            <div class="price-row">
+                                                <span class="price-drink">Bottle: $95</span>
+                                            </div>
+                                        </div>
+                                        <!-- Menu Item 2 -->
+                                        <div class="menu-item">
+                                            <p class="item-name">Chêne Bleu, Astralabe 2019 - Organic</p>
+                                            <div class="price-row">
+                                                <span class="price-drink">Bottle: $95</span>
+                                            </div>
+                                        </div>
+                                        <!-- Menu Item 3 -->
+                                        <div class="menu-item">
+                                            <p class="item-name">Domaine Du Grand Tinel, Châteauneuf Du Pape Red 2020</p>
+                                            <div class="price-row">
+                                                <span class="price-drink">Bottle: $150</span>
+                                            </div>
+                                        </div>
+                                        <!-- Menu Item 4 -->
+                                        <div class="menu-item">
+                                            <p class="item-name">Domaine Du Grand Tinel, Châteauneuf Du Pape Red 2020 – Magnum</p>
+                                            <div class="price-row">
+                                                <span class="price-drink">Bottle: $300</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--rhone2 end-->
+                
+                
+                
+               
 
 
 
@@ -2560,23 +2620,35 @@
 
         // Check if the screen width is less than or equal to a mobile breakpoint (e.g., 768px)
         if ($(window).width() <= 768) {
-          // Scroll to the selected tab content with smooth animation
+          // Scroll down to the selected tab content with smooth animation (mobile view)
           $("html, body").animate(
             {
-              scrollTop: $(filterValue).offset().top - 100, // Stop 100px above the tab content
+              scrollTop: $(filterValue).offset().top - 100, // Adjust offset as needed
             },
-            500 // Duration of the scroll animation in milliseconds
+            500
+          );
+        } else {
+          // Scroll up to 200px higher than the top of the selected tab content (desktop view)
+          $("html, body").animate(
+            {
+              scrollTop: $(filterValue).offset().top - 200, // Subtract 200px for additional offset
+            },
+            500
           );
         }
       }
     });
 
-    // Optional: Re-check window size on resize to handle dynamic changes
+    // Trigger click on first tab to show it by default
+    $(".all_items").first().trigger("click");
+
+    // Optional: Re-check window size on resize
     $(window).resize(function () {
-      // You can add logic here if needed, e.g., resetting states or reapplying styles
+      // You can add logic here if needed
     });
   });
 </script>
+
 
 </body>
 
