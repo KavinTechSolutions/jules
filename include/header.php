@@ -2,7 +2,7 @@
 	<div class="container">
 		<div id="site-header-inner">
 			<div class="header__logo">
-				<a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+				<a href="index.html"><img src="assets/images/logo/foot-logo.png" alt=""></a>
 			</div>
 			<!-- /#main-nav -->
 

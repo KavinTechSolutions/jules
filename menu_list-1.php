@@ -44,7 +44,7 @@
         <?php include('include/header.php');?>
         <!-- end Header -->
 
-        <section class="page-title">
+        <section class="page-title"style="background: url(assets/images/banner/menu-banner.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

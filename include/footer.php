@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="widget logo">
-                            <img src="assets/images/logo/logofooter.png" alt="">
+                            <img src="assets/images/logo/foot-logo.png" alt="">
                             <p>Exquisite Ambiance: Step into a warm and inviting atmosphere, perfect for intimate dinners, family gatherings, or special celebrations.
                             </p>
                             <ul class="list-social">
