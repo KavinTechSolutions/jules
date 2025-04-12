@@ -34,7 +34,7 @@
         <?php include('include/header.php');?>
         <!-- end Header -->
 
-        <section class="page-title">
+        <section class="page-title" style="background: url(assets/images/banner/about-us-banner.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -54,8 +54,8 @@
         </section>
 
         <section class="chef-restaurant">
-            <img class="item-right" src="assets/images/section/menu10.png" alt="" data-aos-duration="1000" data-aos="fade-left">
-            <img class="item-left" src="assets/images/section/menu11.png" alt="" data-aos-duration="1000" data-aos="fade-right">
+            <img class="item-right" src="assets/images/about/about_corner/image1.png" alt="" data-aos-duration="1000" data-aos="fade-left">
+            <img class="item-left" src="assets/images/about/about_corner/image2.png" alt="" data-aos-duration="1000" data-aos="fade-right">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -88,7 +88,7 @@
             </div>
         </section>
 
-        <secsion class="chef-img">
+        <section class="chef-img">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -97,13 +97,13 @@
                                 <div class="swiper-wrapper">
                                     
                                     <div class="swiper-slide">
-                                        <img src="assets/images/section/res02.jpg" alt="">
+                                        <img src="assets/images/about/about_center/image2.jpg" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="assets/images/section/res03.jpg" alt="">
+                                        <img src="assets/images/about/about_center/image1.jpg" alt="">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="assets/images/section/res01.jpg" alt="">
+                                        <img src="assets/images/about/about_center/image3.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
             </div>
-        </secsion>
+        </section>
 
         <section class="s-services">
             <div class="container">
@@ -259,83 +259,6 @@
 				</div>
 			</div>
 		</section>
-
-        <section class="testimonials">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="swiper testimonialSwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="testimonials-content">
-                                        <img src="assets/images/icon/quote.png" alt="">
-                                        <h4>Good restaurant, delicious food, classy atmosphere
-                                        </h4>
-                                        <p>Please thank your team for their professional, efficient and friendly service
-                                            on Sat night. The chefs smashed it <br /> and the drinks flowed freely!
-                                            Everyone was impressed and were quite taken with how cost effective it was
-                                            to <br /> have Ochre do what you did.</p>
-                                        <ul class="rating">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-
-                                        <h5>Margaret - Food critic</h5>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonials-content">
-                                        <img src="assets/images/icon/quote.png" alt="">
-                                        <h4>Good restaurant, delicious food, classy atmosphere
-                                        </h4>
-                                        <p>Please thank your team for their professional, efficient and friendly service
-                                            on Sat night. The chefs smashed it <br /> and the drinks flowed freely!
-                                            Everyone was impressed and were quite taken with how cost effective it was
-                                            to <br /> have Ochre do what you did.</p>
-                                        <ul class="rating">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-
-                                        <h5>Margaret - Food critic</h5>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonials-content">
-                                        <img src="assets/images/icon/quote.png" alt="">
-                                        <h4>Good restaurant, delicious food, classy atmosphere
-                                        </h4>
-                                        <p>Please thank your team for their professional, efficient and friendly service
-                                            on Sat night. The chefs smashed it <br /> and the drinks flowed freely!
-                                            Everyone was impressed and were quite taken with how cost effective it was
-                                            to <br /> have Ochre do what you did.</p>
-                                        <ul class="rating">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-
-                                        <h5>Margaret - Food critic</h5>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <?php include('include/footer.php');?>
 
