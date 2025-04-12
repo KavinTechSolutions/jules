@@ -95,6 +95,7 @@
 		font-family: "DM Sans", serif;
 		font-size: 16px;
   }
+  
 </style>
 </head>
 
@@ -139,13 +140,19 @@
 			<div class="row">
 
 			  <!-- Review 1 -->
-			  <div class="col-md-4 col-sm-6 col-12 mb-4">
+			  <div class="col-md-6 col-sm-6 col-12 mb-4">
 				<div class="review-card">
 				  <div class="review-header">
 					<img class="profile-pic" src="assets/images/reviews/user1.png" alt="User Image">
 					<div class="user-info">
 					  <h5 class="user-name">Khozema Manasawala</h5>
-					  <div class="stars">⭐⭐⭐⭐⭐</div>
+						<div class="stars">
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						</div>
 					</div>
 					<div class="google-info">
 					  <img src="assets/images/reviews/google_logo.png" class="google-logo" alt="Google Logo">
@@ -159,13 +166,21 @@
 			  </div>
 
 			  <!-- Review 2 -->
-			  <div class="col-md-4 col-sm-6 col-12 mb-4">
+			  <div class="col-md-6 col-sm-6 col-12 mb-4">
 				<div class="review-card">
 				  <div class="review-header">
 					<img class="profile-pic" src="assets/images/reviews/user2.png" alt="User Image">
 					<div class="user-info">
 					  <h5 class="user-name">Kong Diana</h5>
-					  <div class="stars">⭐⭐⭐⭐⭐</div>
+					  <div class="stars">
+						<div class="stars">
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						</div>
+					  </div>
 					</div>
 					<div class="google-info">
 					  <img src="assets/images/reviews/google_logo.png" class="google-logo" alt="Google Logo">
@@ -179,13 +194,21 @@
 			  </div>
 
 			  <!-- Review 3 -->
-			  <div class="col-md-4 col-sm-6 col-12 mb-4">
+			  <div class="col-md-6 col-sm-6 col-12 mb-4">
 				<div class="review-card">
 				  <div class="review-header">
 					<img class="profile-pic" src="assets/images/reviews/user3.png" alt="User Image">
 					<div class="user-info">
 					  <h5 class="user-name">Sandra Ong</h5>
-					  <div class="stars">⭐⭐⭐⭐⭐</div>
+					  <div class="stars">
+						<div class="stars">
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						  <i class="fa fa-star"></i>
+						</div>
+					  </div>
 					</div>
 					<div class="google-info">
 					  <img src="assets/images/reviews/google_logo.png" class="google-logo" alt="Google Logo">
